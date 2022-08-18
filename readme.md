@@ -59,4 +59,11 @@ node parseRawToJSON.js
 node parseJSONtoOthers.js
 ```
 
-All I am doing currently is extracting the data into other formats to allow for further analasys. In the future, I might extend these scripts to do some basic analysis, such as calculating the cost per passenger mile on a route, but leaving the data in the 
+All I am doing currently is extracting the data into other formats to allow for further analasys. I do not plan on doing any further analysis within these scripts.
+
+Just a little key for personal needs when extracting the tables from the pdfs:
+- 0: operatingResults
+- 1: capitalResults
+- 2: keyPerformanceIndicators
+- 3: sourcesAndUsesAccount
+- 4: routeLevelResults
