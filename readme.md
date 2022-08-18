@@ -4,14 +4,6 @@ This repository contains the data extracted from [Amtrak's monthly reports](http
 ```
 root
 ├───data
-│   ├───json
-│   │   └───{year}
-│   │       └───{month}
-│   │           ├───operatingResults.json
-│   │           ├───capitalResults.json
-│   │           ├───keyPerformanceIndicators.json
-│   │           ├───sourcesAndUsesAccount.json
-│   │           └───routeLevelResults.json
 │   ├───csv
 │   │   └───{year}
 │   │       └───{month}
@@ -20,6 +12,14 @@ root
 │   │           ├───keyPerformanceIndicators.csv
 │   │           ├───sourcesAndUsesAccount.csv
 │   │           └───routeLevelResults.csv
+│   ├───json
+│   │   └───{year}
+│   │       └───{month}
+│   │           ├───operatingResults.json
+│   │           ├───capitalResults.json
+│   │           ├───keyPerformanceIndicators.json
+│   │           ├───sourcesAndUsesAccount.json
+│   │           └───routeLevelResults.json
 │   └───xml
 │       └───{year}
 │           └───{month}
