@@ -15,16 +15,16 @@ const parseNum = (number) => {
 };
 
 //this pains me
-const camelCase = ((str) => {
+const camelCase = (str) => {
   return str
     .replace(" pp", "")
     .replaceAll("/", " Or ")
     .split("(")[0]
     .toLowerCase()
     .replace(/[^a-zA-Z0-9_]+(.)/g, (m, chr) => chr.toUpperCase())
-    .replace(' ', '')
-    .replace('\r', '')
-});
+    .replace(" ", "")
+    .replace("\r", "");
+};
 
 const processFile = (fileName) => {
   const rawData = fs.readFileSync(fileName, "utf8");
@@ -103,7 +103,9 @@ const processFile = (fileName) => {
           actualVSForecastInPercent:
             row[4].split(" ")[1] != "pp"
               ? parseNum(row[4].split(" ")[1])
-              : parseNum(((parseNum(row[3]) / parseNum(row[1])) * 100).toFixed(2)),
+              : parseNum(
+                  ((parseNum(row[3]) / parseNum(row[1])) * 100).toFixed(2)
+                ),
         };
 
         final[camelCase(row[0])] = parsed;
@@ -116,7 +118,7 @@ const processFile = (fileName) => {
       data.shift();
 
       data.forEach((row) => {
-        if (row[1] === '' || row[1] === '-') {
+        if (row[1] === "" || row[1] === "-") {
           return;
         }
 
@@ -131,6 +133,59 @@ const processFile = (fileName) => {
       break;
     case "4":
       console.log(4);
+      //removing unnecessary rows
+      data.shift();
+      data.shift();
+      data.shift();
+
+      data.forEach((row, i) => {
+        if (row[1] === "" || row[1] === "-") {
+          return;
+        }
+
+        let parsed = {
+          operatingRevenue: parseNum(row[1]) * 1000000,
+          operatingExpenses: parseNum(row[3]) * 1000000,
+          operatingEarnings: parseNum(row[5]) * 1000000,
+          ridership: row[6] !== '' ? parseNum(row[6]) : 0,
+          seatMiles: row[7] !== '' ? parseNum(row[7].split(" ")[0]) : 0,
+          passengerMiles: row[7] !== '' ? parseNum(row[7].split(" ")[1]) : 0,
+          averageLoadFactor: row[8] !== '' ? parseNum(row[8]) : 0,
+          onTimePerformance: row[9] !== '' ? parseNum(row[9]) : 0,
+          trainMiles: parseNum(row[10]) * 1000000,
+          frequencies: parseNum(row[11]),
+        };
+
+        if (i > 0 && data[i - 1] && data[i - 1][8] === "N/A") {
+          parsed.operatingRevenue +=
+            data[i - 1][1] === "N/A" ? 0 : parseNum(data[i - 1][1]) * 1000000;
+          parsed.operatingExpenses +=
+            data[i - 1][3] === "N/A" ? 0 : parseNum(data[i - 1][3]) * 1000000;
+          parsed.operatingEarnings +=
+            data[i - 1][5] === "N/A" ? 0 : parseNum(data[i - 1][5]) * 1000000;
+          parsed.ridership +=
+            data[i - 1][6] === "N/A" ? 0 : parseNum(data[i - 1][6]);
+          parsed.seatMiles +=
+            data[i - 1][7].split(" ")[0] === "N/A"
+              ? 0
+              : parseNum(data[i - 1][7].split(" ")[0]);
+          parsed.passengerMiles +=
+            data[i - 1][7].split(" ")[1] === "N/A"
+              ? 0
+              : parseNum(data[i - 1][7].split(" ")[1]);
+          parsed.averageLoadFactor +=
+            data[i - 1][8] === "N/A" ? 0 : parseNum(data[i - 1][8]);
+          parsed.onTimePerformance +=
+            data[i - 1][9] === "N/A" ? 0 : parseNum(data[i - 1][9]);
+          parsed.trainMiles +=
+            data[i - 1][10] === "N/A" ? 0 : parseNum(data[i - 1][10]) * 1000000;
+          parsed.frequencies +=
+            data[i - 1][11] === "N/A" ? 0 : parseNum(data[i - 1][11]);
+        }
+
+        final[camelCase(row[0])] = parsed;
+      });
+
       break;
     default:
       console.log("default");
@@ -166,5 +221,5 @@ const readYear = (year) => {
 };
 
 console.log(
-  processFile("../reports/2021/august/unprocessed/tabula-report-3.csv")
+  processFile("../reports/2021/september/unprocessed/tabula-report-4.csv")
 );
