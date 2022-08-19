@@ -26,7 +26,7 @@ const camelCase = (str) => {
 
 const processFile = (fileName) => {
   const rawData = fs.readFileSync(fileName, "utf8");
-  const data = parse(data, {
+  const data = parse(rawData, {
     columns: false,
     skip_empty_lines: true,
   });
@@ -56,11 +56,27 @@ const processFile = (fileName) => {
 
         final[camelCase(row[0])] = parsed;
       });
-
-      console.log(final);
       break;
     case "1":
       console.log(1);
+      //removing unnecessary rows
+      data.shift();
+      data.shift();
+      data.shift();
+
+      data.forEach((row) => {
+        const parsed = {
+          priorYear: parseNum(row[1]),
+          currentYearForecast: parseNum(row[5]),
+          currentYearActual: parseNum(row[2]),
+          growthInDollars: parseNum(row[4].split(' ')[0]),
+          growthInPercent: parseNum(row[4].split(' ')[1]),
+          actualVSForecastInDollars: parseNum(row[6].split(' ')[1]),
+          actualVSForecastInPercent: parseNum(row[6].split(' ')[2]),
+        };
+
+        final[camelCase(row[0])] = parsed;
+      });
       break;
     case "2":
       console.log(2);
@@ -75,6 +91,8 @@ const processFile = (fileName) => {
       console.log("default");
       break;
   }
+
+  return final;
 };
 
 //takes path of folder as input and returns array of json objects
@@ -102,4 +120,4 @@ const readYear = (year) => {
   return months;
 };
 
-processFile("../reports/2021/august/unprocessed/tabula-report-0.csv");
+console.log(processFile("../reports/2021/august/unprocessed/tabula-report-1.csv"));
