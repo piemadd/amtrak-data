@@ -1,0 +1,23 @@
+{
+  "name": "amtrak-data",
+  "version": "1.0.0",
+  "description": "This repository contains the data extracted from [Amtrak's monthly reports](https://www.amtrak.com/reports-documents) in various formats. The repository is structured like so:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piemadd/amtrak-data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piemadd/amtrak-data/issues"
+  },
+  "homepage": "https://github.com/piemadd/amtrak-data#readme",
+  "dependencies": {
+    "csv-parse": "^5.3.0"
+  }
+}
