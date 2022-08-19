@@ -33,11 +33,11 @@ root
 │       └───{month}
 │           ├───report.pdf
 │           └───unprocessed
-│               ├───operatingResults.csv
-│               ├───capitalResults.csv
-│               ├───keyPerformanceIndicators.csv
-│               ├───sourcesAndUsesAccount.csv
-│               └───routeLevelResults.csv
+│               ├───tabula-report-0.csv
+│               ├───tabula-report-1.csv
+│               ├───tabula-report-2.csv
+│               ├───tabula-report-3.csv
+│               └───tabula-report-4.csv
 ├───scripts
 │   ├───parseRawToJSON.js
 │   └───parseJSONtoOthers.js
