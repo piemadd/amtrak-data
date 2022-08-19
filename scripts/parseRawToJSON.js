@@ -82,20 +82,15 @@ const processFile = (fileName) => {
 
   switch (fileType) {
     case "0":
-      console.log(0);
+    case "1":
+      console.log("processing file type 0 or 1");
       //removing unnecessary rows
-      data.shift();
-      data.shift();
-      data.shift();
-
-      mooshed.shift();
-      mooshed.shift();
-      mooshed.shift();
+      for (let i = 0; i < 3; i++) {
+        data.shift();
+        mooshed.shift();
+      }
 
       mooshed.forEach((row, i) => {
-        console.log(row);
-        console.log(data[i]);
-
         if (row.length == 0) return;
 
         const parsed = {
@@ -109,27 +104,6 @@ const processFile = (fileName) => {
         };
 
         final[camelCase(data[i][0])] = parsed;
-      });
-      break;
-    case "1":
-      console.log(1);
-      //removing unnecessary rows
-      data.shift();
-      data.shift();
-      data.shift();
-
-      data.forEach((row) => {
-        const parsed = {
-          priorYear: parseNum(row[1]) * 1000000,
-          currentYearForecast: parseNum(row[5]) * 1000000,
-          currentYearActual: parseNum(row[2]) * 1000000,
-          growthInDollars: parseNum(row[4].split(" ")[0]) * 1000000,
-          growthInPercent: parseNum(row[4].split(" ")[1]),
-          actualVSForecastInDollars: parseNum(row[6].split(" ")[1]) * 1000000,
-          actualVSForecastInPercent: parseNum(row[6].split(" ")[2]),
-        };
-
-        final[camelCase(row[0])] = parsed;
       });
       break;
     case "2":
@@ -282,7 +256,7 @@ console.log(
 */
 
 console.log(
-  processFile("../reports/2021/august/unprocessed/tabula-report-0.csv")
+  processFile("../reports/2021/august/unprocessed/tabula-report-1.csv")
 );
 
 /*
