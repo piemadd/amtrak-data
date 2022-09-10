@@ -86,6 +86,7 @@ const processFile = (fileName) => {
 
       mooshed.forEach((row, i) => {
         if (row.length == 0) return;
+        if (data[i][0].length == 0) return;
 
         const parsed = {
           priorYear: row[0] * 1000000,
@@ -105,6 +106,7 @@ const processFile = (fileName) => {
 
       mooshed.forEach((row, i) => {
         if (row.length == 0) return;
+        if (data[i][0].length == 0) return;
 
         const parsed = {
           priorYear: row[0] * 1000,
@@ -124,6 +126,7 @@ const processFile = (fileName) => {
 
       mooshed.forEach((row, i) => {
         if (row.length == 0) return;
+        if (data[i][0].length == 0) return;
 
         const parsed = {
           necAccounts: row[0] * 1000,
@@ -139,6 +142,7 @@ const processFile = (fileName) => {
 
       mooshed.forEach((row, i) => {
         if (row.length == 0) return;
+        if (data[i][0].length == 0) return;
 
         const parsed = {
           operatingRevenue: row[0] * 1000000,
@@ -183,7 +187,7 @@ const readFolder = (folderPath, save = true) => {
       console.log('saving to ', filePath)
       
       fs.mkdirSync(fileFolderPath, { recursive: true });
-      fs.writeFileSync(filePath, JSON.stringify(file));
+      fs.writeFileSync(filePath, JSON.stringify(file, null, 2));
     })
   }
 

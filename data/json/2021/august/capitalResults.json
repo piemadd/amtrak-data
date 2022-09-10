@@ -1,0 +1,128 @@
+{
+  "engineering": {
+    "priorYear": 657500000,
+    "currentYearForecast": 561900000,
+    "currentYearActual": 552800000,
+    "growthInDollars": -104700000,
+    "growthInPercent": -16,
+    "actualVSForecastInDollars": -9100000,
+    "actualVSForecastInPercent": -2
+  },
+  "mechanical": {
+    "priorYear": 294800000,
+    "currentYearForecast": 328700000,
+    "currentYearActual": 313900000,
+    "growthInDollars": 19100000,
+    "growthInPercent": 6,
+    "actualVSForecastInDollars": -14800000,
+    "actualVSForecastInPercent": -5
+  },
+  "operations": {
+    "priorYear": 48700000,
+    "currentYearForecast": 14100000,
+    "currentYearActual": 12800000,
+    "growthInDollars": -35900000,
+    "growthInPercent": -74,
+    "actualVSForecastInDollars": -1300000,
+    "actualVSForecastInPercent": -9
+  },
+  "totalOperations": {
+    "priorYear": 1001000000,
+    "currentYearForecast": 904700000,
+    "currentYearActual": 879500000,
+    "growthInDollars": -121500000,
+    "growthInPercent": -12,
+    "actualVSForecastInDollars": -25100000,
+    "actualVSForecastInPercent": -3
+  },
+  "it": {
+    "priorYear": 96700000,
+    "currentYearForecast": 92700000,
+    "currentYearActual": 92400000,
+    "growthInDollars": -4300000,
+    "growthInPercent": -4,
+    "actualVSForecastInDollars": -300000,
+    "actualVSForecastInPercent": 0
+  },
+  "commericalMarketing": {
+    "priorYear": 1300000,
+    "currentYearForecast": 1600000,
+    "currentYearActual": 600000,
+    "growthInDollars": -700000,
+    "growthInPercent": -52,
+    "actualVSForecastInDollars": -1000000,
+    "actualVSForecastInPercent": -62
+  },
+  "adaStations": {
+    "priorYear": 156900000,
+    "currentYearForecast": 179800000,
+    "currentYearActual": 173500000,
+    "growthInDollars": 16600000.000000002,
+    "growthInPercent": 11,
+    "actualVSForecastInDollars": -6200000,
+    "actualVSForecastInPercent": -3
+  },
+  "safety": {
+    "priorYear": 15900000,
+    "currentYearForecast": 26900000,
+    "currentYearActual": 16600000.000000002,
+    "growthInDollars": 700000,
+    "growthInPercent": 4,
+    "actualVSForecastInDollars": -10200000,
+    "actualVSForecastInPercent": -38
+  },
+  "procurement": {
+    "priorYear": 5000000,
+    "currentYearForecast": 4000000,
+    "currentYearActual": 4300000,
+    "growthInDollars": -600000,
+    "growthInPercent": -13,
+    "actualVSForecastInDollars": 300000,
+    "actualVSForecastInPercent": 8
+  },
+  "acela21": {
+    "priorYear": 21000000,
+    "currentYearForecast": -43000000,
+    "currentYearActual": 383000000,
+    "growthInDollars": 218000000,
+    "growthInPercent": -165,
+    "actualVSForecastInDollars": 218000000,
+    "actualVSForecastInPercent": -13.2
+  },
+  "planningAssetDevelopment": {
+    "priorYear": 71200000,
+    "currentYearForecast": 472700000,
+    "currentYearActual": 487300000,
+    "growthInDollars": 416100000,
+    "growthInPercent": 584,
+    "actualVSForecastInDollars": 14600000,
+    "actualVSForecastInPercent": 3
+  },
+  "intercityTrainsets": {
+    "priorYear": 100000,
+    "currentYearForecast": 142000000,
+    "currentYearActual": 138500000,
+    "growthInDollars": 138400000,
+    "growthInPercent": 0,
+    "actualVSForecastInDollars": -3400000,
+    "actualVSForecastInPercent": -2
+  },
+  "otherOvhdAdjustment": {
+    "priorYear": -500000,
+    "currentYearForecast": 3900000,
+    "currentYearActual": 3900000,
+    "growthInDollars": 4400000,
+    "growthInPercent": 904,
+    "actualVSForecastInDollars": 0,
+    "actualVSForecastInPercent": 1
+  },
+  "totalCapitalSpend": {
+    "priorYear": 1730600000,
+    "currentYearForecast": 2059400000,
+    "currentYearActual": 2014800000,
+    "growthInDollars": 284200000,
+    "growthInPercent": 16,
+    "actualVSForecastInDollars": -44700000,
+    "actualVSForecastInPercent": -2
+  }
+}

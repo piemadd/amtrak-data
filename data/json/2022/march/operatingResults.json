@@ -1,0 +1,279 @@
+{
+  "": {
+    "priorYear": 0,
+    "currentYearForecast": null,
+    "currentYearActual": 0,
+    "growthInDollars": null,
+    "actualVSForecastInDollars": null
+  },
+  "ticketRevenue": {
+    "priorYear": 236400000,
+    "currentYearForecast": 710500000,
+    "currentYearActual": 730600000,
+    "growthInDollars": 494200000,
+    "growthInPercent": 209,
+    "actualVSForecastInDollars": 20100000,
+    "actualVSForecastInPercent": 3
+  },
+  "foodBeverage": {
+    "priorYear": 5500000,
+    "currentYearForecast": 17400000,
+    "currentYearActual": 17000000,
+    "growthInDollars": 11500000,
+    "growthInPercent": 211,
+    "actualVSForecastInDollars": -400000,
+    "actualVSForecastInPercent": -3
+  },
+  "stateSupportedTrainRevenue": {
+    "priorYear": 197400000,
+    "currentYearForecast": 176100000,
+    "currentYearActual": 175700000,
+    "growthInDollars": -21600000,
+    "growthInPercent": -11,
+    "actualVSForecastInDollars": -400000,
+    "actualVSForecastInPercent": 0
+  },
+  "subtotalPassengerRelatedRevenue": {
+    "priorYear": 439200000,
+    "currentYearForecast": 904000000,
+    "currentYearActual": 923300000,
+    "growthInDollars": 484000000,
+    "growthInPercent": 110,
+    "actualVSForecastInDollars": 19300000,
+    "actualVSForecastInPercent": 2
+  },
+  "otherCoreRevenue": {
+    "priorYear": 143300000,
+    "currentYearForecast": 157600000,
+    "currentYearActual": 158900000,
+    "growthInDollars": 15600000,
+    "growthInPercent": 11,
+    "actualVSForecastInDollars": 1300000,
+    "actualVSForecastInPercent": 1
+  },
+  "ancillaryRevenue": {
+    "priorYear": 157800000,
+    "currentYearForecast": 173100000,
+    "currentYearActual": 174400000,
+    "growthInDollars": 16600000.000000002,
+    "growthInPercent": 11,
+    "actualVSForecastInDollars": 1300000,
+    "actualVSForecastInPercent": 1
+  },
+  "totalRevenue": {
+    "priorYear": 740300000,
+    "currentYearForecast": 1234600000,
+    "currentYearActual": 1256600000,
+    "growthInDollars": 516200000.00000006,
+    "growthInPercent": 70,
+    "actualVSForecastInDollars": 21900000,
+    "actualVSForecastInPercent": 2
+  },
+  "salaries": {
+    "priorYear": 161900000,
+    "currentYearForecast": 197700000,
+    "currentYearActual": 202800000,
+    "growthInDollars": 41000000,
+    "growthInPercent": 25,
+    "actualVSForecastInDollars": -5100000,
+    "actualVSForecastInPercent": -3
+  },
+  "wagesOvertime": {
+    "priorYear": 477900000,
+    "currentYearForecast": 570100000,
+    "currentYearActual": 569800000,
+    "growthInDollars": 91900000,
+    "growthInPercent": 19,
+    "actualVSForecastInDollars": 400000,
+    "actualVSForecastInPercent": 0
+  },
+  "employeeBenefits": {
+    "priorYear": 209900000,
+    "currentYearForecast": 291500000,
+    "currentYearActual": 292700000,
+    "growthInDollars": 82700000,
+    "growthInPercent": 39,
+    "actualVSForecastInDollars": -1200000,
+    "actualVSForecastInPercent": 0
+  },
+  "employeeRelated": {
+    "priorYear": 9400000,
+    "currentYearForecast": 16000000,
+    "currentYearActual": 15500000,
+    "growthInDollars": 6100000,
+    "growthInPercent": 65,
+    "actualVSForecastInDollars": 500000,
+    "actualVSForecastInPercent": 3
+  },
+  "salariesWagesBenefits": {
+    "priorYear": 859100000,
+    "currentYearForecast": 1075300000,
+    "currentYearActual": 1080800000,
+    "growthInDollars": 221600000,
+    "growthInPercent": 26,
+    "actualVSForecastInDollars": -5500000,
+    "actualVSForecastInPercent": -1
+  },
+  "trainOperations": {
+    "priorYear": 101600000,
+    "currentYearForecast": 142000000,
+    "currentYearActual": 142100000,
+    "growthInDollars": 40600000,
+    "growthInPercent": 40,
+    "actualVSForecastInDollars": -200000,
+    "actualVSForecastInPercent": 0
+  },
+  "fuelPowerUtilities": {
+    "priorYear": 83500000,
+    "currentYearForecast": 129100000,
+    "currentYearActual": 129000000,
+    "growthInDollars": 45500000,
+    "growthInPercent": 55,
+    "actualVSForecastInDollars": 100000,
+    "actualVSForecastInPercent": 0
+  },
+  "materials": {
+    "priorYear": 48300000,
+    "currentYearForecast": 70900000,
+    "currentYearActual": 70400000,
+    "growthInDollars": 22100000,
+    "growthInPercent": 46,
+    "actualVSForecastInDollars": 500000,
+    "actualVSForecastInPercent": 1
+  },
+  "facilityCommunicationOffice": {
+    "priorYear": 80900000,
+    "currentYearForecast": 94400000,
+    "currentYearActual": 94000000,
+    "growthInDollars": 13100000,
+    "growthInPercent": 16,
+    "actualVSForecastInDollars": 400000,
+    "actualVSForecastInPercent": 0
+  },
+  "advertisingAndSales": {
+    "priorYear": 17000000,
+    "currentYearForecast": 36700000,
+    "currentYearActual": 37000000,
+    "growthInDollars": 20000000,
+    "growthInPercent": 118,
+    "actualVSForecastInDollars": -200000,
+    "actualVSForecastInPercent": -1
+  },
+  "casualtyAndOtherClaims": {
+    "priorYear": 28900000,
+    "currentYearForecast": 27200000,
+    "currentYearActual": 31200000,
+    "growthInDollars": 2300000,
+    "growthInPercent": 8,
+    "actualVSForecastInDollars": -4000000,
+    "actualVSForecastInPercent": -15
+  },
+  "professionalFeesDataProcessing": {
+    "priorYear": 91700000,
+    "currentYearForecast": 98100000,
+    "currentYearActual": 96300000,
+    "growthInDollars": 4600000,
+    "growthInPercent": 5,
+    "actualVSForecastInDollars": 1900000,
+    "actualVSForecastInPercent": 2
+  },
+  "allOtherExpense": {
+    "priorYear": 92200000,
+    "currentYearForecast": 113200000,
+    "currentYearActual": 123300000,
+    "growthInDollars": 31100000,
+    "growthInPercent": 34,
+    "actualVSForecastInDollars": -10100000,
+    "actualVSForecastInPercent": -9
+  },
+  "transferToCapitalAncillary": {
+    "priorYear": -74400000,
+    "currentYearForecast": -81000000,
+    "currentYearActual": -85000000,
+    "growthInDollars": -10600000,
+    "growthInPercent": -14,
+    "actualVSForecastInDollars": 4000000,
+    "actualVSForecastInPercent": 5
+  },
+  "totalExpense": {
+    "priorYear": 1328600000,
+    "currentYearForecast": 1706100000,
+    "currentYearActual": 1719100000,
+    "growthInDollars": 390400000,
+    "growthInPercent": 29,
+    "actualVSForecastInDollars": -13000000,
+    "actualVSForecastInPercent": -1
+  },
+  "adjustedOperatingEarnings": {
+    "priorYear": -588300000,
+    "currentYearForecast": -471400000,
+    "currentYearActual": -462500000,
+    "growthInDollars": 125800000,
+    "growthInPercent": 21,
+    "actualVSForecastInDollars": 8900000,
+    "actualVSForecastInPercent": 2
+  },
+  "opebSAndPension": {
+    "priorYear": 17700000,
+    "currentYearForecast": 16600000.000000002,
+    "currentYearActual": 15400000,
+    "growthInDollars": -2300000,
+    "growthInPercent": -13,
+    "actualVSForecastInDollars": -1200000,
+    "actualVSForecastInPercent": -7
+  },
+  "projectRelatedRevenueExpense": {
+    "priorYear": -59300000,
+    "currentYearForecast": -67400000,
+    "currentYearActual": -75200000,
+    "growthInDollars": -15900000,
+    "growthInPercent": -27,
+    "actualVSForecastInDollars": -7800000,
+    "actualVSForecastInPercent": -12
+  },
+  "depreciation": {
+    "priorYear": -477900000,
+    "currentYearForecast": -458200000,
+    "currentYearActual": -452600000,
+    "growthInDollars": 25300000,
+    "growthInPercent": 5,
+    "actualVSForecastInDollars": 5500000,
+    "actualVSForecastInPercent": 1
+  },
+  "officeOfInspectorGeneral": {
+    "priorYear": -11300000,
+    "currentYearForecast": -11900000,
+    "currentYearActual": -12400000,
+    "growthInDollars": -1000000,
+    "growthInPercent": -9,
+    "actualVSForecastInDollars": -400000,
+    "actualVSForecastInPercent": -4
+  },
+  "stateCapitalPaymentAmortization": {
+    "priorYear": 68300000,
+    "currentYearForecast": 70500000,
+    "currentYearActual": 71900000,
+    "growthInDollars": 3600000,
+    "growthInPercent": 5,
+    "actualVSForecastInDollars": 1400000,
+    "actualVSForecastInPercent": 2
+  },
+  "nonOperatingIncOr": {
+    "priorYear": -11400000,
+    "currentYearForecast": -12500000,
+    "currentYearActual": -15200000,
+    "growthInDollars": -3800000,
+    "growthInPercent": -33,
+    "actualVSForecastInDollars": -2700000,
+    "actualVSForecastInPercent": -21
+  },
+  "netIncomeOr": {
+    "priorYear": -1062200000,
+    "currentYearForecast": -934400000,
+    "currentYearActual": -930600000,
+    "growthInDollars": 131600000,
+    "growthInPercent": 12,
+    "actualVSForecastInDollars": 3800000,
+    "actualVSForecastInPercent": 0
+  }
+}

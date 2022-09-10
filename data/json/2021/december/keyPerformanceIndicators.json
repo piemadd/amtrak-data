@@ -1,0 +1,101 @@
+{
+  "northeastCorridor": {
+    "priorYear": 576000,
+    "currentYearForecast": 2167000,
+    "currentYearActual": 2185000,
+    "growthInRiders": 1609000,
+    "growthInPercent": 279000,
+    "actualVSForecastInRiders": 18000,
+    "actualVSForecastInPercent": 1
+  },
+  "stateSupported": {
+    "priorYear": 853000,
+    "currentYearForecast": 2453000,
+    "currentYearActual": 2433000,
+    "growthInRiders": 1581000,
+    "growthInPercent": 185000,
+    "actualVSForecastInRiders": -19000,
+    "actualVSForecastInPercent": -1
+  },
+  "longDistance": {
+    "priorYear": 361000,
+    "currentYearForecast": 859000,
+    "currentYearActual": 912000,
+    "growthInRiders": 551000,
+    "growthInPercent": 153000,
+    "actualVSForecastInRiders": 53000,
+    "actualVSForecastInPercent": 6
+  },
+  "totalRidership": {
+    "priorYear": 1790000,
+    "currentYearForecast": 5478000,
+    "currentYearActual": 5530000,
+    "growthInRiders": 3740000,
+    "growthInPercent": 209000,
+    "actualVSForecastInRiders": 52000,
+    "actualVSForecastInPercent": 1
+  },
+  "rasm": {
+    "priorYear": 12590,
+    "currentYearForecast": 17290,
+    "currentYearActual": 19480,
+    "growthInRiders": 7000,
+    "growthInPercent": 55000,
+    "actualVSForecastInRiders": 2180,
+    "actualVSForecastInPercent": 13
+  },
+  "casm": {
+    "priorYear": 25660,
+    "currentYearForecast": 22410,
+    "currentYearActual": 24210,
+    "growthInRiders": -1000,
+    "growthInPercent": -6000,
+    "actualVSForecastInRiders": -1810,
+    "actualVSForecastInPercent": -8
+  },
+  "costRecoveryRatio": {
+    "priorYear": 49000,
+    "currentYearForecast": 77200,
+    "currentYearActual": 80400,
+    "growthInRiders": null,
+    "growthInPercent": null,
+    "actualVSForecastInRiders": 3300,
+    "actualVSForecastInPercent": 31.4
+  },
+  "customerSatisfactionIndex": {
+    "priorYear": 84100,
+    "currentYearForecast": 81100,
+    "currentYearActual": 81500,
+    "growthInRiders": null,
+    "growthInPercent": null,
+    "actualVSForecastInRiders": 500,
+    "actualVSForecastInPercent": -2.5
+  },
+  "seatMiles": {
+    "priorYear": 1839400,
+    "currentYearForecast": 2903000,
+    "currentYearActual": 2700200,
+    "growthInRiders": 861000,
+    "growthInPercent": 47000,
+    "actualVSForecastInRiders": -202700,
+    "actualVSForecastInPercent": -7
+  },
+  "passengerMiles": {
+    "priorYear": 428600,
+    "currentYearForecast": 1141800,
+    "currentYearActual": 1193900,
+    "growthInRiders": 765000,
+    "growthInPercent": 179000,
+    "actualVSForecastInRiders": 52100,
+    "actualVSForecastInPercent": 5
+  },
+  "trainMiles": {
+    "priorYear": 5500,
+    "currentYearForecast": 9000,
+    "currentYearActual": 8800,
+    "growthInRiders": 3000,
+    "growthInPercent": 59000,
+    "actualVSForecastInRiders": -200,
+    "actualVSForecastInPercent": -2
+  }
+}

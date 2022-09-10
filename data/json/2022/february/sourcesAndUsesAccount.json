@@ -1,0 +1,62 @@
+{
+  "operatingSources": {
+    "necAccounts": 499173000,
+    "nationalNetworkAccount": 524175000,
+    "total": 1023349000
+  },
+  "capitalSources": {
+    "necAccounts": 98630000,
+    "nationalNetworkAccount": 63009000,
+    "total": 161639000
+  },
+  "federalGrantsToAmtrak": {
+    "necAccounts": 50062000,
+    "nationalNetworkAccount": 347830000,
+    "total": 397892000
+  },
+  "totalOperatingAndCapitalSources": {
+    "necAccounts": 647865000,
+    "nationalNetworkAccount": 935014000,
+    "total": 1582880000
+  },
+  "operatingUses": {
+    "necAccounts": 569085000,
+    "nationalNetworkAccount": 824998000,
+    "total": 1394083000
+  },
+  "operatingSurplusOrDeficit": {
+    "necAccounts": 0,
+    "nationalNetworkAccount": -69912000,
+    "total": -300822000
+  },
+  "debtServicePayments": {
+    "necAccounts": 0,
+    "nationalNetworkAccount": 0,
+    "total": 0
+  },
+  "availableForCapitalUses": {
+    "necAccounts": 0,
+    "nationalNetworkAccount": 78780000,
+    "total": 110017000
+  },
+  "capitalExpenditures": {
+    "necAccounts": 407127000,
+    "nationalNetworkAccount": 343993000,
+    "total": 751120000
+  },
+  "legacyDebtAndRrifRepayments": {
+    "necAccounts": 24064000,
+    "nationalNetworkAccount": 989000,
+    "total": 25053000
+  },
+  "remainingCarryoverBalance": {
+    "necAccounts": -352411000,
+    "nationalNetworkAccount": -234965000,
+    "total": -587376000
+  },
+  "transfers": {
+    "necAccounts": 0,
+    "nationalNetworkAccount": 0,
+    "total": 0
+  }
+}
