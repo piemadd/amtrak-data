@@ -6,8 +6,6 @@
     "ridership": 163800,
     "seatMiles": 53100000,
     "passengerMiles": 32799999.999999996,
-    "averageLoadFactor": 62,
-    "onTimePerformance": 82.5,
     "trainMiles": 200,
     "frequencies": 436000
   },
@@ -18,8 +16,6 @@
     "ridership": 610500,
     "seatMiles": 178000000,
     "passengerMiles": 108500000,
-    "averageLoadFactor": 61,
-    "onTimePerformance": 81.3,
     "trainMiles": 400,
     "frequencies": 1105200
   },
@@ -30,8 +26,6 @@
     "ridership": 0,
     "seatMiles": 300000,
     "passengerMiles": 0,
-    "averageLoadFactor": 0,
-    "onTimePerformance": 0,
     "trainMiles": 0,
     "frequencies": 31000
   },
@@ -42,8 +36,6 @@
     "ridership": 774300,
     "seatMiles": 231400000,
     "passengerMiles": 141300000,
-    "averageLoadFactor": 61,
-    "onTimePerformance": 81.6,
     "trainMiles": 600,
     "frequencies": 1572200
   },
@@ -54,8 +46,6 @@
     "ridership": 4200,
     "seatMiles": 1900000,
     "passengerMiles": 200000,
-    "averageLoadFactor": 12,
-    "onTimePerformance": 97.8,
     "trainMiles": 0,
     "frequencies": 26000
   },
@@ -66,8 +56,6 @@
     "ridership": 8300,
     "seatMiles": 4500000,
     "passengerMiles": 1000000,
-    "averageLoadFactor": 21,
-    "onTimePerformance": 81.7,
     "trainMiles": 0,
     "frequencies": 24900
   },
@@ -78,8 +66,6 @@
     "ridership": 30400,
     "seatMiles": 19800000,
     "passengerMiles": 5800000,
-    "averageLoadFactor": 29,
-    "onTimePerformance": 86.9,
     "trainMiles": 100,
     "frequencies": 128900
   },
@@ -90,8 +76,6 @@
     "ridership": 37400,
     "seatMiles": 13200000,
     "passengerMiles": 3300000,
-    "averageLoadFactor": 25,
-    "onTimePerformance": 79.2,
     "trainMiles": 0,
     "frequencies": 306000
   },
@@ -102,10 +86,8 @@
     "ridership": -700,
     "seatMiles": 28100000,
     "passengerMiles": 8700000,
-    "averageLoadFactor": 1.6,
-    "onTimePerformance": 19,
-    "trainMiles": 90400,
-    "frequencies": 0
+    "trainMiles": 0,
+    "frequencies": 502800
   },
   "keystoneService": {
     "operatingRevenue": 3000000,
@@ -114,8 +96,6 @@
     "ridership": 64300,
     "seatMiles": 18700000,
     "passengerMiles": 4400000,
-    "averageLoadFactor": 23,
-    "onTimePerformance": 92.4,
     "trainMiles": 100,
     "frequencies": 337600
   },
@@ -126,8 +106,6 @@
     "ridership": 93300,
     "seatMiles": 24800000,
     "passengerMiles": 14200000,
-    "averageLoadFactor": 57,
-    "onTimePerformance": 91.6,
     "trainMiles": 100,
     "frequencies": 392100
   },
@@ -138,8 +116,6 @@
     "ridership": 36600,
     "seatMiles": 18500000,
     "passengerMiles": 6600000,
-    "averageLoadFactor": 36,
-    "onTimePerformance": 78.3,
     "trainMiles": 100,
     "frequencies": 245000
   },
@@ -150,8 +126,6 @@
     "ridership": 38600,
     "seatMiles": 7400000,
     "passengerMiles": 3100000,
-    "averageLoadFactor": 42,
-    "onTimePerformance": 90.9,
     "trainMiles": 0,
     "frequencies": 424000
   },
@@ -162,8 +136,6 @@
     "ridership": 27800,
     "seatMiles": 14600000,
     "passengerMiles": 6000000,
-    "averageLoadFactor": 41,
-    "onTimePerformance": 74.4,
     "trainMiles": 100,
     "frequencies": 186000
   },
@@ -174,8 +146,6 @@
     "ridership": 26400,
     "seatMiles": 17800000,
     "passengerMiles": 4099999.9999999995,
-    "averageLoadFactor": 23,
-    "onTimePerformance": 65.4,
     "trainMiles": 0,
     "frequencies": 124000
   },
@@ -186,8 +156,6 @@
     "ridership": 10700,
     "seatMiles": 6600000,
     "passengerMiles": 1800000,
-    "averageLoadFactor": 27,
-    "onTimePerformance": 85.9,
     "trainMiles": 0,
     "frequencies": 122000
   },
@@ -198,8 +166,6 @@
     "ridership": 4500,
     "seatMiles": 2200000,
     "passengerMiles": 800000,
-    "averageLoadFactor": 38,
-    "onTimePerformance": 77.4,
     "trainMiles": 0,
     "frequencies": 61000
   },
@@ -210,8 +176,6 @@
     "ridership": 103200,
     "seatMiles": 46600000,
     "passengerMiles": 9600000,
-    "averageLoadFactor": 21,
-    "onTimePerformance": 82.2,
     "trainMiles": 100,
     "frequencies": 579000
   },
@@ -222,8 +186,6 @@
     "ridership": 26100,
     "seatMiles": 10200000,
     "passengerMiles": 4099999.9999999995,
-    "averageLoadFactor": 40,
-    "onTimePerformance": 59.7,
     "trainMiles": 100,
     "frequencies": 186000
   },
@@ -234,8 +196,6 @@
     "ridership": 55000,
     "seatMiles": 21000000,
     "passengerMiles": 4000000,
-    "averageLoadFactor": 19,
-    "onTimePerformance": 82.6,
     "trainMiles": 100,
     "frequencies": 642000
   },
@@ -246,8 +206,6 @@
     "ridership": 51600,
     "seatMiles": 40500000,
     "passengerMiles": 7400000,
-    "averageLoadFactor": 18,
-    "onTimePerformance": 82.7,
     "trainMiles": 100,
     "frequencies": 340000
   },
@@ -258,8 +216,6 @@
     "ridership": 0,
     "seatMiles": 0,
     "passengerMiles": 0,
-    "averageLoadFactor": 0,
-    "onTimePerformance": 0,
     "trainMiles": 0,
     "frequencies": 0
   },
@@ -270,8 +226,6 @@
     "ridership": 11300,
     "seatMiles": 7000000,
     "passengerMiles": 2100000,
-    "averageLoadFactor": 30,
-    "onTimePerformance": 82.2,
     "trainMiles": 0,
     "frequencies": 62000
   },
@@ -282,8 +236,6 @@
     "ridership": 16400,
     "seatMiles": 6500000,
     "passengerMiles": 2400000,
-    "averageLoadFactor": 37,
-    "onTimePerformance": 82.4,
     "trainMiles": 0,
     "frequencies": 22600
   },
@@ -294,10 +246,8 @@
     "ridership": -600,
     "seatMiles": 23900000,
     "passengerMiles": 9200000,
-    "averageLoadFactor": 3,
-    "onTimePerformance": 33,
-    "trainMiles": 73600,
-    "frequencies": 0
+    "trainMiles": 0,
+    "frequencies": 38700
   },
   "washingtonNorfolk": {
     "operatingRevenue": 0,
@@ -306,10 +256,8 @@
     "ridership": -200,
     "seatMiles": 17700000,
     "passengerMiles": 11200000,
-    "averageLoadFactor": 2.4,
-    "onTimePerformance": 21,
-    "trainMiles": 73600,
-    "frequencies": 0
+    "trainMiles": 0,
+    "frequencies": 41100
   },
   "washingtonRichmond": {
     "operatingRevenue": 0,
@@ -318,10 +266,8 @@
     "ridership": 100,
     "seatMiles": 4000000,
     "passengerMiles": 3200000,
-    "averageLoadFactor": 0.4,
-    "onTimePerformance": 11,
-    "trainMiles": 73600,
-    "frequencies": 0
+    "trainMiles": 0,
+    "frequencies": 15000
   },
   "hoosierState": {
     "operatingRevenue": 0,
@@ -330,8 +276,6 @@
     "ridership": 0,
     "seatMiles": 0,
     "passengerMiles": 0,
-    "averageLoadFactor": 0,
-    "onTimePerformance": 0,
     "trainMiles": 0,
     "frequencies": 0
   },
@@ -342,8 +286,6 @@
     "ridership": 13600,
     "seatMiles": 7600000,
     "passengerMiles": 2300000,
-    "averageLoadFactor": 30,
-    "onTimePerformance": 58.6,
     "trainMiles": 0,
     "frequencies": 124000
   },
@@ -354,8 +296,6 @@
     "ridership": 15000,
     "seatMiles": 6500000,
     "passengerMiles": 3000000,
-    "averageLoadFactor": 47,
-    "onTimePerformance": 57.8,
     "trainMiles": 0,
     "frequencies": 49200
   },
@@ -366,8 +306,6 @@
     "ridership": 0,
     "seatMiles": 0,
     "passengerMiles": 0,
-    "averageLoadFactor": 0,
-    "onTimePerformance": 0,
     "trainMiles": 0,
     "frequencies": 0
   },
@@ -378,8 +316,6 @@
     "ridership": 6100,
     "seatMiles": 2300000,
     "passengerMiles": 900000,
-    "averageLoadFactor": 40,
-    "onTimePerformance": 74.7,
     "trainMiles": 0,
     "frequencies": 62000
   },
@@ -390,8 +326,6 @@
     "ridership": 21700,
     "seatMiles": 12200000,
     "passengerMiles": 4300000,
-    "averageLoadFactor": 35,
-    "onTimePerformance": 72.8,
     "trainMiles": 0,
     "frequencies": 42000
   },
@@ -402,8 +336,6 @@
     "ridership": 18100,
     "seatMiles": 5600000,
     "passengerMiles": 2100000,
-    "averageLoadFactor": 38,
-    "onTimePerformance": 73,
     "trainMiles": 0,
     "frequencies": 178000
   },
@@ -414,8 +346,6 @@
     "ridership": 0,
     "seatMiles": 300000,
     "passengerMiles": 0,
-    "averageLoadFactor": 0,
-    "onTimePerformance": 0,
     "trainMiles": 0,
     "frequencies": 70000
   },
@@ -426,8 +356,6 @@
     "ridership": 794200,
     "seatMiles": 348700000,
     "passengerMiles": 101000000,
-    "averageLoadFactor": 29,
-    "onTimePerformance": 81.6,
     "trainMiles": 1100,
     "frequencies": 5331800
   },
@@ -438,8 +366,6 @@
     "ridership": 21100,
     "seatMiles": 16500000,
     "passengerMiles": 8900000,
-    "averageLoadFactor": 54,
-    "onTimePerformance": 49.4,
     "trainMiles": 100,
     "frequencies": 62000
   },
@@ -450,8 +376,6 @@
     "ridership": 8200,
     "seatMiles": 4600000,
     "passengerMiles": 2600000,
-    "averageLoadFactor": 56,
-    "onTimePerformance": 58.7,
     "trainMiles": 0,
     "frequencies": 27000
   },
@@ -462,8 +386,6 @@
     "ridership": 18800,
     "seatMiles": 17500000,
     "passengerMiles": 9800000,
-    "averageLoadFactor": 56,
-    "onTimePerformance": 49.8,
     "trainMiles": 100,
     "frequencies": 62000
   },
@@ -474,8 +396,6 @@
     "ridership": 22600,
     "seatMiles": 40700000,
     "passengerMiles": 16399999.999999998,
-    "averageLoadFactor": 40,
-    "onTimePerformance": 59,
     "trainMiles": 200,
     "frequencies": 124000
   },
@@ -486,8 +406,6 @@
     "ridership": 14300,
     "seatMiles": 10500000,
     "passengerMiles": 6300000,
-    "averageLoadFactor": 60,
-    "onTimePerformance": 36.3,
     "trainMiles": 0,
     "frequencies": 62000
   },
@@ -498,8 +416,6 @@
     "ridership": 23900,
     "seatMiles": 34100000,
     "passengerMiles": 19000000,
-    "averageLoadFactor": 56,
-    "onTimePerformance": 42.4,
     "trainMiles": 200,
     "frequencies": 62000
   },
@@ -510,8 +426,6 @@
     "ridership": 19000,
     "seatMiles": 31500000,
     "passengerMiles": 16900000,
-    "averageLoadFactor": 54,
-    "onTimePerformance": 39,
     "trainMiles": 100,
     "frequencies": 62000
   },
@@ -522,8 +436,6 @@
     "ridership": 11800,
     "seatMiles": 10400000,
     "passengerMiles": 4400000,
-    "averageLoadFactor": 42,
-    "onTimePerformance": 81.4,
     "trainMiles": 100,
     "frequencies": 62000
   },
@@ -534,8 +446,6 @@
     "ridership": 20600,
     "seatMiles": 15700000,
     "passengerMiles": 9500000,
-    "averageLoadFactor": 60,
-    "onTimePerformance": 49.7,
     "trainMiles": 100,
     "frequencies": 62000
   },
@@ -546,8 +456,6 @@
     "ridership": 5000,
     "seatMiles": 13700000,
     "passengerMiles": 3700000,
-    "averageLoadFactor": 27,
-    "onTimePerformance": 31.7,
     "trainMiles": 100,
     "frequencies": 27000
   },
@@ -558,8 +466,6 @@
     "ridership": 24900,
     "seatMiles": 23200000,
     "passengerMiles": 10700000,
-    "averageLoadFactor": 46,
-    "onTimePerformance": 49.4,
     "trainMiles": 100,
     "frequencies": 62000
   },
@@ -570,8 +476,6 @@
     "ridership": 26900,
     "seatMiles": 21100000,
     "passengerMiles": 10900000,
-    "averageLoadFactor": 52,
-    "onTimePerformance": 56.2,
     "trainMiles": 100,
     "frequencies": 123000
   },
@@ -582,8 +486,6 @@
     "ridership": 21600,
     "seatMiles": 12400000,
     "passengerMiles": 4600000,
-    "averageLoadFactor": 38,
-    "onTimePerformance": 73.2,
     "trainMiles": 100,
     "frequencies": 62000
   },
@@ -594,8 +496,6 @@
     "ridership": 19300,
     "seatMiles": 19400000,
     "passengerMiles": 7300000,
-    "averageLoadFactor": 37,
-    "onTimePerformance": 70.4,
     "trainMiles": 100,
     "frequencies": 60000
   },
@@ -606,8 +506,6 @@
     "ridership": 19300,
     "seatMiles": 30600000,
     "passengerMiles": 16500000,
-    "averageLoadFactor": 54,
-    "onTimePerformance": 18.1,
     "trainMiles": 100,
     "frequencies": 60000
   },
@@ -618,8 +516,6 @@
     "ridership": 0,
     "seatMiles": 0,
     "passengerMiles": 0,
-    "averageLoadFactor": 0,
-    "onTimePerformance": 0,
     "trainMiles": 0,
     "frequencies": 0
   },
@@ -630,8 +526,6 @@
     "ridership": 277200,
     "seatMiles": 301800000,
     "passengerMiles": 147500000,
-    "averageLoadFactor": 49,
-    "onTimePerformance": 51.3,
     "trainMiles": 1200,
     "frequencies": 979000
   },
@@ -642,8 +536,8 @@
     "ridership": 0,
     "seatMiles": 1000000,
     "passengerMiles": null,
-    "trainMiles": null,
-    "frequencies": null
+    "trainMiles": 0,
+    "frequencies": 1000
   },
   "infrastructure": {
     "operatingRevenue": 21100000,
@@ -652,8 +546,8 @@
     "ridership": 700,
     "seatMiles": 53069000000,
     "passengerMiles": null,
-    "trainMiles": null,
-    "frequencies": null
+    "trainMiles": 700,
+    "frequencies": 53069000
   },
   "amtrak": {
     "operatingRevenue": 222200000,
@@ -662,8 +556,6 @@
     "ridership": 1845600,
     "seatMiles": 881800000,
     "passengerMiles": 389800000,
-    "averageLoadFactor": 44,
-    "onTimePerformance": 77,
     "trainMiles": 3000,
     "frequencies": 7883000
   }

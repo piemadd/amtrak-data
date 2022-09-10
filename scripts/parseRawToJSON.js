@@ -151,10 +151,8 @@ const processFile = (fileName) => {
           ridership: row[3] * 1000,
           seatMiles: row[4] * 1000000,
           passengerMiles: row[5] * 1000000,
-          averageLoadFactor: row[6],
-          onTimePerformance: row[7],
-          trainMiles: row[8] * 1000,
-          frequencies: row[9] * 1000,
+          trainMiles: row[row.length - 2] * 1000,
+          frequencies: row[row.length - 1] * 1000,
         };
 
         final[camelCase(data[i][0])] = parsed;
