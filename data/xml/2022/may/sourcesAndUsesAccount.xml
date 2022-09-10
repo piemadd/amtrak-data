@@ -1,0 +1,54 @@
+<operatingSources>
+  <necAccounts>8000</necAccounts>
+  <nationalNetworkAccount>72325000</nationalNetworkAccount>
+  <total>879072000</total>
+</operatingSources>
+<capitalSources>
+  <necAccounts>2000</necAccounts>
+  <nationalNetworkAccount>33810000</nationalNetworkAccount>
+  <total>105550000</total>
+</capitalSources>
+<federalGrantsToAmtrak>
+  <necAccounts>4000</necAccounts>
+  <nationalNetworkAccount>2046000</nationalNetworkAccount>
+  <total>614218000</total>
+</federalGrantsToAmtrak>
+<totalOperatingAndCapitalSources>
+  <necAccounts>1508180000</necAccounts>
+  <nationalNetworkAccount>1000</nationalNetworkAccount>
+  <total>598840000</total>
+</totalOperatingAndCapitalSources>
+<operatingUses>
+  <necAccounts>9000</necAccounts>
+  <nationalNetworkAccount>67778000</nationalNetworkAccount>
+  <total>1399388000</total>
+</operatingUses>
+<debtServicePayments>
+  <necAccounts>0</necAccounts>
+  <nationalNetworkAccount>0</nationalNetworkAccount>
+  <total>0</total>
+</debtServicePayments>
+
+  <necAccounts>0</necAccounts>
+  <nationalNetworkAccount>540402000</nationalNetworkAccount>
+  <total>199452000</total>
+<capitalExpenditures>
+  <necAccounts>7000</necAccounts>
+  <nationalNetworkAccount>42313000</nationalNetworkAccount>
+  <total>542282000</total>
+</capitalExpenditures>
+<legacyDebtAndRrifRepayments>
+  <necAccounts>49910000</necAccounts>
+  <nationalNetworkAccount>1134000</nationalNetworkAccount>
+  <total>51044000</total>
+</legacyDebtAndRrifRepayments>
+<remainingCarryoverBalance>
+  <necAccounts>-251820000</necAccounts>
+  <nationalNetworkAccount>-343964000</nationalNetworkAccount>
+  <total>-595784000</total>
+</remainingCarryoverBalance>
+<transfers>
+  <necAccounts>0</necAccounts>
+  <nationalNetworkAccount>0</nationalNetworkAccount>
+  <total>0</total>
+</transfers>

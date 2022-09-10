@@ -1,0 +1,60 @@
+<operatingSources>
+  <necAccounts>530792000</necAccounts>
+  <nationalNetworkAccount>731283000</nationalNetworkAccount>
+  <total>1262074000</total>
+</operatingSources>
+<capitalSources>
+  <necAccounts>314203000</necAccounts>
+  <nationalNetworkAccount>131705000</nationalNetworkAccount>
+  <total>445908000</total>
+</capitalSources>
+<federalGrantsToAmtrak>
+  <necAccounts>2473560000</necAccounts>
+  <nationalNetworkAccount>2547313000</nationalNetworkAccount>
+  <total>5020873000</total>
+</federalGrantsToAmtrak>
+<totalOperatingAndCapitalSources>
+  <necAccounts>3318554000</necAccounts>
+  <nationalNetworkAccount>3410300000</nationalNetworkAccount>
+  <total>6728855000</total>
+</totalOperatingAndCapitalSources>
+<operatingUses>
+  <necAccounts>903924000</necAccounts>
+  <nationalNetworkAccount>1194391000</nationalNetworkAccount>
+  <total>2098314000</total>
+</operatingUses>
+<operatingSurplusOrDeficit>
+  <necAccounts>0</necAccounts>
+  <nationalNetworkAccount>-373132000</nationalNetworkAccount>
+  <total>-463108000</total>
+</operatingSurplusOrDeficit>
+<debtServicePayments>
+  <necAccounts>0</necAccounts>
+  <nationalNetworkAccount>0</nationalNetworkAccount>
+  <total>0</total>
+</debtServicePayments>
+<availableForCapitalUses>
+  <necAccounts>0</necAccounts>
+  <nationalNetworkAccount>2414631000</nationalNetworkAccount>
+  <total>2215910000</total>
+</availableForCapitalUses>
+<capitalExpenditures>
+  <necAccounts>739557000</necAccounts>
+  <nationalNetworkAccount>621711000</nationalNetworkAccount>
+  <total>1361268000</total>
+</capitalExpenditures>
+<legacyDebtRepayments>
+  <necAccounts>91710000</necAccounts>
+  <nationalNetworkAccount>46707000</nationalNetworkAccount>
+  <total>138417000</total>
+</legacyDebtRepayments>
+<remainingCarryoverBalance>
+  <necAccounts>1583364000</necAccounts>
+  <nationalNetworkAccount>1547491000</nationalNetworkAccount>
+  <total>3130855000</total>
+</remainingCarryoverBalance>
+<transfers>
+  <necAccounts>0</necAccounts>
+  <nationalNetworkAccount>0</nationalNetworkAccount>
+  <total>0</total>
+</transfers>

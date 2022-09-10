@@ -1,0 +1,668 @@
+<acela>
+  <operatingRevenue>165000000</operatingRevenue>
+  <operatingExpenses>186400000</operatingExpenses>
+  <adjustedEarnings>-21400000</adjustedEarnings>
+  <ridership>1050600</ridership>
+  <seatMiles>372600000</seatMiles>
+  <passengerMiles>209500000</passengerMiles>
+  <averageLoadFactor>50</averageLoadFactor>
+  <onTimePerformance>84.3</onTimePerformance>
+  <trainMiles>1200</trainMiles>
+  <frequencies>3055000</frequencies>
+</acela>
+<regional>
+  <operatingRevenue>301800000</operatingRevenue>
+  <operatingExpenses>319700000</operatingExpenses>
+  <adjustedEarnings>-17900000</adjustedEarnings>
+  <ridership>3521300</ridership>
+  <seatMiles>1123700000</seatMiles>
+  <passengerMiles>630800000</passengerMiles>
+  <averageLoadFactor>54</averageLoadFactor>
+  <onTimePerformance>81.3</onTimePerformance>
+  <trainMiles>2600</trainMiles>
+  <frequencies>7027600</frequencies>
+</regional>
+<necSpecialTrainsAdjustments>
+  <operatingRevenue>3600000</operatingRevenue>
+  <operatingExpenses>5600000</operatingExpenses>
+  <adjustedEarnings>-2000000</adjustedEarnings>
+  <ridership>0</ridership>
+  <seatMiles>2500000</seatMiles>
+  <passengerMiles>0</passengerMiles>
+  <averageLoadFactor>0</averageLoadFactor>
+  <onTimePerformance>0</onTimePerformance>
+  <trainMiles>0</trainMiles>
+  <frequencies>222000</frequencies>
+</necSpecialTrainsAdjustments>
+<nec>
+  <operatingRevenue>470500000</operatingRevenue>
+  <operatingExpenses>511800000</operatingExpenses>
+  <adjustedEarnings>-41300000</adjustedEarnings>
+  <ridership>4571900</ridership>
+  <seatMiles>1498800000</seatMiles>
+  <passengerMiles>840400000</passengerMiles>
+  <averageLoadFactor>53</averageLoadFactor>
+  <onTimePerformance>82</onTimePerformance>
+  <trainMiles>3800</trainMiles>
+  <frequencies>10304600</frequencies>
+</nec>
+<ethanAllenExpress>
+  <operatingRevenue>1500000</operatingRevenue>
+  <operatingExpenses>3300000</operatingExpenses>
+  <adjustedEarnings>-1900000</adjustedEarnings>
+  <ridership>26300</ridership>
+  <seatMiles>13000000</seatMiles>
+  <passengerMiles>1400000</passengerMiles>
+  <averageLoadFactor>11</averageLoadFactor>
+  <onTimePerformance>92.6</onTimePerformance>
+  <trainMiles>0</trainMiles>
+  <frequencies>174900</frequencies>
+</ethanAllenExpress>
+<vermonter>
+  <operatingRevenue>5300000</operatingRevenue>
+  <operatingExpenses>5600000</operatingExpenses>
+  <adjustedEarnings>-300000</adjustedEarnings>
+  <ridership>45400</ridership>
+  <seatMiles>30300000</seatMiles>
+  <passengerMiles>5100000</passengerMiles>
+  <averageLoadFactor>17</averageLoadFactor>
+  <onTimePerformance>86.5</onTimePerformance>
+  <trainMiles>100</trainMiles>
+  <frequencies>165600</frequencies>
+</vermonter>
+<mapleLeaf>
+  <operatingRevenue>18800000</operatingRevenue>
+  <operatingExpenses>22300000</operatingExpenses>
+  <adjustedEarnings>-3500000</adjustedEarnings>
+  <ridership>206100</ridership>
+  <seatMiles>136300000</seatMiles>
+  <passengerMiles>38800000</passengerMiles>
+  <averageLoadFactor>29</averageLoadFactor>
+  <onTimePerformance>85</onTimePerformance>
+  <trainMiles>400</trainMiles>
+  <frequencies>877000</frequencies>
+</mapleLeaf>
+<theDowneaster>
+  <operatingRevenue>10000000</operatingRevenue>
+  <operatingExpenses>11000000</operatingExpenses>
+  <adjustedEarnings>-1000000</adjustedEarnings>
+  <ridership>216400</ridership>
+  <seatMiles>89100000</seatMiles>
+  <passengerMiles>19000000</passengerMiles>
+  <averageLoadFactor>21</averageLoadFactor>
+  <onTimePerformance>83.5</onTimePerformance>
+  <trainMiles>300</trainMiles>
+  <frequencies>2087000</frequencies>
+</theDowneaster>
+<newHavenSpringfield>
+  <operatingRevenue>0</operatingRevenue>
+  <operatingExpenses>12200000</operatingExpenses>
+  <adjustedEarnings>19400000</adjustedEarnings>
+  <ridership>-7200</ridership>
+  <seatMiles>176100000</seatMiles>
+  <passengerMiles>57500000</passengerMiles>
+  <averageLoadFactor>10.1</averageLoadFactor>
+  <onTimePerformance>20</onTimePerformance>
+  <trainMiles>88300</trainMiles>
+  <frequencies>300</frequencies>
+</newHavenSpringfield>
+<keystoneService>
+  <operatingRevenue>18300000</operatingRevenue>
+  <operatingExpenses>41200000</operatingExpenses>
+  <adjustedEarnings>-22900000</adjustedEarnings>
+  <ridership>413100</ridership>
+  <seatMiles>128800000.00000001</seatMiles>
+  <passengerMiles>28100000</passengerMiles>
+  <averageLoadFactor>21</averageLoadFactor>
+  <onTimePerformance>94.2</onTimePerformance>
+  <trainMiles>400</trainMiles>
+  <frequencies>2316900</frequencies>
+</keystoneService>
+<empireService>
+  <operatingRevenue>32100000</operatingRevenue>
+  <operatingExpenses>43100000</operatingExpenses>
+  <adjustedEarnings>-10900000</adjustedEarnings>
+  <ridership>544100</ridership>
+  <seatMiles>167500000</seatMiles>
+  <passengerMiles>88400000</passengerMiles>
+  <averageLoadFactor>51</averageLoadFactor>
+  <onTimePerformance>92.1</onTimePerformance>
+  <trainMiles>500</trainMiles>
+  <frequencies>2574100</frequencies>
+</empireService>
+<chicagoStLouis>
+  <operatingRevenue>21600000</operatingRevenue>
+  <operatingExpenses>23100000</operatingExpenses>
+  <adjustedEarnings>-1500000</adjustedEarnings>
+  <ridership>250900</ridership>
+  <seatMiles>134800000</seatMiles>
+  <passengerMiles>46800000</passengerMiles>
+  <averageLoadFactor>36</averageLoadFactor>
+  <onTimePerformance>76.8</onTimePerformance>
+  <trainMiles>500</trainMiles>
+  <frequencies>1682000</frequencies>
+</chicagoStLouis>
+<hiawathas>
+  <operatingRevenue>11700000</operatingRevenue>
+  <operatingExpenses>13800000</operatingExpenses>
+  <adjustedEarnings>-2000000</adjustedEarnings>
+  <ridership>239800</ridership>
+  <seatMiles>46900000</seatMiles>
+  <passengerMiles>19300000</passengerMiles>
+  <averageLoadFactor>36</averageLoadFactor>
+  <onTimePerformance>94.7</onTimePerformance>
+  <trainMiles>200</trainMiles>
+  <frequencies>2665000</frequencies>
+</hiawathas>
+<wolverines>
+  <operatingRevenue>20100000</operatingRevenue>
+  <operatingExpenses>23700000</operatingExpenses>
+  <adjustedEarnings>-3700000</adjustedEarnings>
+  <ridership>188000</ridership>
+  <seatMiles>95800000</seatMiles>
+  <passengerMiles>41200000</passengerMiles>
+  <averageLoadFactor>41</averageLoadFactor>
+  <onTimePerformance>58.6</onTimePerformance>
+  <trainMiles>400</trainMiles>
+  <frequencies>1258000</frequencies>
+</wolverines>
+<illini>
+  <operatingRevenue>12000000</operatingRevenue>
+  <operatingExpenses>9300000</operatingExpenses>
+  <adjustedEarnings>2600000</adjustedEarnings>
+  <ridership>137000</ridership>
+  <seatMiles>88200000</seatMiles>
+  <passengerMiles>22200000</passengerMiles>
+  <averageLoadFactor>27</averageLoadFactor>
+  <onTimePerformance>57.8</onTimePerformance>
+  <trainMiles>200</trainMiles>
+  <frequencies>636000</frequencies>
+</illini>
+<illinoisZephyr>
+  <operatingRevenue>10600000</operatingRevenue>
+  <operatingExpenses>9100000</operatingExpenses>
+  <adjustedEarnings>1500000</adjustedEarnings>
+  <ridership>75300</ridership>
+  <seatMiles>43800000</seatMiles>
+  <passengerMiles>12400000</passengerMiles>
+  <averageLoadFactor>28</averageLoadFactor>
+  <onTimePerformance>83.3</onTimePerformance>
+  <trainMiles>200</trainMiles>
+  <frequencies>843000</frequencies>
+</illinoisZephyr>
+<heartlandFlyer>
+  <operatingRevenue>4200000</operatingRevenue>
+  <operatingExpenses>4700000</operatingExpenses>
+  <adjustedEarnings>-500000</adjustedEarnings>
+  <ridership>31800</ridership>
+  <seatMiles>15500000</seatMiles>
+  <passengerMiles>5800000</passengerMiles>
+  <averageLoadFactor>37</averageLoadFactor>
+  <onTimePerformance>70.4</onTimePerformance>
+  <trainMiles>100</trainMiles>
+  <frequencies>417000</frequencies>
+</heartlandFlyer>
+<pacificSurfliner>
+  <operatingRevenue>53300000</operatingRevenue>
+  <operatingExpenses>65800000</operatingExpenses>
+  <adjustedEarnings>-12500000</adjustedEarnings>
+  <ridership>802700</ridership>
+  <seatMiles>379600000</seatMiles>
+  <passengerMiles>79400000</passengerMiles>
+  <averageLoadFactor>20</averageLoadFactor>
+  <onTimePerformance>83.5</onTimePerformance>
+  <trainMiles>900</trainMiles>
+  <frequencies>4309000</frequencies>
+</pacificSurfliner>
+<cascades>
+  <operatingRevenue>21600000</operatingRevenue>
+  <operatingExpenses>24800000</operatingExpenses>
+  <adjustedEarnings>-3200000</adjustedEarnings>
+  <ridership>196000</ridership>
+  <seatMiles>69000000</seatMiles>
+  <passengerMiles>30400000</passengerMiles>
+  <averageLoadFactor>40</averageLoadFactor>
+  <onTimePerformance>57.1</onTimePerformance>
+  <trainMiles>300</trainMiles>
+  <frequencies>1256700</frequencies>
+</cascades>
+<capitols>
+  <operatingRevenue>29500000</operatingRevenue>
+  <operatingExpenses>32700000.000000004</operatingExpenses>
+  <adjustedEarnings>-3200000</adjustedEarnings>
+  <ridership>342600</ridership>
+  <seatMiles>144100000</seatMiles>
+  <passengerMiles>25800000</passengerMiles>
+  <averageLoadFactor>16</averageLoadFactor>
+  <onTimePerformance>84</onTimePerformance>
+  <trainMiles>500</trainMiles>
+  <frequencies>4400000</frequencies>
+</capitols>
+<sanJoaquins>
+  <operatingRevenue>46100000</operatingRevenue>
+  <operatingExpenses>51700000</operatingExpenses>
+  <adjustedEarnings>-5700000</adjustedEarnings>
+  <ridership>374700</ridership>
+  <seatMiles>301600000</seatMiles>
+  <passengerMiles>54600000</passengerMiles>
+  <averageLoadFactor>18</averageLoadFactor>
+  <onTimePerformance>76.4</onTimePerformance>
+  <trainMiles>800</trainMiles>
+  <frequencies>2509000</frequencies>
+</sanJoaquins>
+<adirondack>
+  <operatingRevenue>1100000</operatingRevenue>
+  <operatingExpenses>1100000</operatingExpenses>
+  <adjustedEarnings>-100000</adjustedEarnings>
+  <ridership>0</ridership>
+  <seatMiles>0</seatMiles>
+  <passengerMiles>0</passengerMiles>
+  <averageLoadFactor>0</averageLoadFactor>
+  <onTimePerformance>0</onTimePerformance>
+  <trainMiles>0</trainMiles>
+  <frequencies>0</frequencies>
+</adirondack>
+<blueWater>
+  <operatingRevenue>8000000</operatingRevenue>
+  <operatingExpenses>9100000</operatingExpenses>
+  <adjustedEarnings>-1100000</adjustedEarnings>
+  <ridership>73200</ridership>
+  <seatMiles>45500000</seatMiles>
+  <passengerMiles>14200000</passengerMiles>
+  <averageLoadFactor>31</averageLoadFactor>
+  <onTimePerformance>58.8</onTimePerformance>
+  <trainMiles>100</trainMiles>
+  <frequencies>422000</frequencies>
+</blueWater>
+<washingtonLynchburg>
+  <operatingRevenue>5600000</operatingRevenue>
+  <operatingExpenses>6500000</operatingExpenses>
+  <adjustedEarnings>-900000</adjustedEarnings>
+  <ridership>103100</ridership>
+  <seatMiles>44500000</seatMiles>
+  <passengerMiles>14600000</passengerMiles>
+  <averageLoadFactor>33</averageLoadFactor>
+  <onTimePerformance>78.9</onTimePerformance>
+  <trainMiles>100</trainMiles>
+  <frequencies>155300</frequencies>
+</washingtonLynchburg>
+<washingtonNewportNews>
+  <operatingRevenue>0</operatingRevenue>
+  <operatingExpenses>7200000</operatingExpenses>
+  <adjustedEarnings>9600000</adjustedEarnings>
+  <ridership>-2400</ridership>
+  <seatMiles>121200000</seatMiles>
+  <passengerMiles>47800000</passengerMiles>
+  <averageLoadFactor>15.2</averageLoadFactor>
+  <onTimePerformance>27</onTimePerformance>
+  <trainMiles>74900</trainMiles>
+  <frequencies>100</frequencies>
+</washingtonNewportNews>
+<washingtonNorfolk>
+  <operatingRevenue>0</operatingRevenue>
+  <operatingExpenses>8800000</operatingExpenses>
+  <adjustedEarnings>11200000</adjustedEarnings>
+  <ridership>-2400</ridership>
+  <seatMiles>126000000</seatMiles>
+  <passengerMiles>76700000</passengerMiles>
+  <averageLoadFactor>17</averageLoadFactor>
+  <onTimePerformance>21</onTimePerformance>
+  <trainMiles>74900</trainMiles>
+  <frequencies>200</frequencies>
+</washingtonNorfolk>
+<washingtonRichmond>
+  <operatingRevenue>0</operatingRevenue>
+  <operatingExpenses>5200000</operatingExpenses>
+  <adjustedEarnings>3900000</adjustedEarnings>
+  <ridership>1300</ridership>
+  <seatMiles>36600000</seatMiles>
+  <passengerMiles>22200000</passengerMiles>
+  <averageLoadFactor>3.1</averageLoadFactor>
+  <onTimePerformance>13</onTimePerformance>
+  <trainMiles>74900</trainMiles>
+  <frequencies>100</frequencies>
+</washingtonRichmond>
+<hoosierState>
+  <operatingRevenue>0</operatingRevenue>
+  <operatingExpenses>0</operatingExpenses>
+  <adjustedEarnings>0</adjustedEarnings>
+  <ridership>0</ridership>
+  <seatMiles>0</seatMiles>
+  <passengerMiles>0</passengerMiles>
+  <averageLoadFactor>0</averageLoadFactor>
+  <onTimePerformance>0</onTimePerformance>
+  <trainMiles>0</trainMiles>
+  <frequencies>0</frequencies>
+</hoosierState>
+<kansasCityStLouis>
+  <operatingRevenue>7100000</operatingRevenue>
+  <operatingExpenses>6500000</operatingExpenses>
+  <adjustedEarnings>600000</adjustedEarnings>
+  <ridership>60700</ridership>
+  <seatMiles>36200000</seatMiles>
+  <passengerMiles>11700000</passengerMiles>
+  <averageLoadFactor>35</averageLoadFactor>
+  <onTimePerformance>66</onTimePerformance>
+  <trainMiles>200</trainMiles>
+  <frequencies>597000</frequencies>
+</kansasCityStLouis>
+<pennsylvanian>
+  <operatingRevenue>8400000</operatingRevenue>
+  <operatingExpenses>11500000</operatingExpenses>
+  <adjustedEarnings>-3100000</adjustedEarnings>
+  <ridership>93000</ridership>
+  <seatMiles>44200000</seatMiles>
+  <passengerMiles>19500000</passengerMiles>
+  <averageLoadFactor>44</averageLoadFactor>
+  <onTimePerformance>69.2</onTimePerformance>
+  <trainMiles>100</trainMiles>
+  <frequencies>335000</frequencies>
+</pennsylvanian>
+<gulfCoastLimited>
+  <operatingRevenue>0</operatingRevenue>
+  <operatingExpenses>0</operatingExpenses>
+  <adjustedEarnings>0</adjustedEarnings>
+  <ridership>0</ridership>
+  <seatMiles>0</seatMiles>
+  <passengerMiles>0</passengerMiles>
+  <averageLoadFactor>0</averageLoadFactor>
+  <onTimePerformance>0</onTimePerformance>
+  <trainMiles>0</trainMiles>
+  <frequencies>0</frequencies>
+</gulfCoastLimited>
+<pereMarquette>
+  <operatingRevenue>4300000</operatingRevenue>
+  <operatingExpenses>6100000</operatingExpenses>
+  <adjustedEarnings>-1900000</adjustedEarnings>
+  <ridership>41600</ridership>
+  <seatMiles>15200000</seatMiles>
+  <passengerMiles>6400000</passengerMiles>
+  <averageLoadFactor>42</averageLoadFactor>
+  <onTimePerformance>69.9</onTimePerformance>
+  <trainMiles>100</trainMiles>
+  <frequencies>419000</frequencies>
+</pereMarquette>
+<carolinian>
+  <operatingRevenue>11200000</operatingRevenue>
+  <operatingExpenses>12000000</operatingExpenses>
+  <adjustedEarnings>-800000</adjustedEarnings>
+  <ridership>136000</ridership>
+  <seatMiles>72500000</seatMiles>
+  <passengerMiles>28900000</passengerMiles>
+  <averageLoadFactor>41</averageLoadFactor>
+  <onTimePerformance>71.7</onTimePerformance>
+  <trainMiles>200</trainMiles>
+  <frequencies>285000</frequencies>
+</carolinian>
+<piedmont>
+  <operatingRevenue>5200000</operatingRevenue>
+  <operatingExpenses>5300000</operatingExpenses>
+  <adjustedEarnings>-100000</adjustedEarnings>
+  <ridership>114000</ridership>
+  <seatMiles>36000000</seatMiles>
+  <passengerMiles>13400000</passengerMiles>
+  <averageLoadFactor>36</averageLoadFactor>
+  <onTimePerformance>75.4</onTimePerformance>
+  <trainMiles>200</trainMiles>
+  <frequencies>1240000</frequencies>
+</piedmont>
+<nonNecSpecialTrainsAdjustments>
+  <operatingRevenue>900000</operatingRevenue>
+  <operatingExpenses>9800000</operatingExpenses>
+  <adjustedEarnings>-9000000</adjustedEarnings>
+  <ridership>0</ridership>
+  <seatMiles>3000000</seatMiles>
+  <passengerMiles>0</passengerMiles>
+  <averageLoadFactor>0</averageLoadFactor>
+  <onTimePerformance>0</onTimePerformance>
+  <trainMiles>100</trainMiles>
+  <frequencies>529000</frequencies>
+</nonNecSpecialTrainsAdjustments>
+<stateSupported>
+  <operatingRevenue>402000000</operatingRevenue>
+  <operatingExpenses>497500000</operatingExpenses>
+  <adjustedEarnings>-95500000</adjustedEarnings>
+  <ridership>5171400</ridership>
+  <seatMiles>2385500000</seatMiles>
+  <passengerMiles>672800000</passengerMiles>
+  <averageLoadFactor>28</averageLoadFactor>
+  <onTimePerformance>81.3</onTimePerformance>
+  <trainMiles>7500</trainMiles>
+  <frequencies>35989200</frequencies>
+</stateSupported>
+<silverStar>
+  <operatingRevenue>26200000</operatingRevenue>
+  <operatingExpenses>58800000</operatingExpenses>
+  <adjustedEarnings>-32700000.000000004</adjustedEarnings>
+  <ridership>219200</ridership>
+  <seatMiles>196200000</seatMiles>
+  <passengerMiles>104900000</passengerMiles>
+  <averageLoadFactor>52</averageLoadFactor>
+  <onTimePerformance>33.1</onTimePerformance>
+  <trainMiles>600</trainMiles>
+  <frequencies>421000</frequencies>
+</silverStar>
+<cardinal>
+  <operatingRevenue>4200000</operatingRevenue>
+  <operatingExpenses>14800000</operatingExpenses>
+  <adjustedEarnings>-10600000</adjustedEarnings>
+  <ridership>44900</ridership>
+  <seatMiles>31000000</seatMiles>
+  <passengerMiles>15400000</passengerMiles>
+  <averageLoadFactor>45</averageLoadFactor>
+  <onTimePerformance>55.8</onTimePerformance>
+  <trainMiles>200</trainMiles>
+  <frequencies>176000</frequencies>
+</cardinal>
+<silverMeteor>
+  <operatingRevenue>11100000</operatingRevenue>
+  <operatingExpenses>22800000</operatingExpenses>
+  <adjustedEarnings>-11700000</adjustedEarnings>
+  <ridership>79200</ridership>
+  <seatMiles>76000000</seatMiles>
+  <passengerMiles>41800000</passengerMiles>
+  <averageLoadFactor>51</averageLoadFactor>
+  <onTimePerformance>44.2</onTimePerformance>
+  <trainMiles>300</trainMiles>
+  <frequencies>214000</frequencies>
+</silverMeteor>
+<empireBuilder>
+  <operatingRevenue>20200000</operatingRevenue>
+  <operatingExpenses>59300000</operatingExpenses>
+  <adjustedEarnings>-39100000</adjustedEarnings>
+  <ridership>144500</ridership>
+  <seatMiles>218800000</seatMiles>
+  <passengerMiles>91600000</passengerMiles>
+  <averageLoadFactor>41</averageLoadFactor>
+  <onTimePerformance>44.6</onTimePerformance>
+  <trainMiles>900</trainMiles>
+  <frequencies>686000</frequencies>
+</empireBuilder>
+<capitolLimited>
+  <operatingRevenue>8300000.000000001</operatingRevenue>
+  <operatingExpenses>21300000</operatingExpenses>
+  <adjustedEarnings>-13000000</adjustedEarnings>
+  <ridership>81900</ridership>
+  <seatMiles>61900000</seatMiles>
+  <passengerMiles>35000000</passengerMiles>
+  <averageLoadFactor>56</averageLoadFactor>
+  <onTimePerformance>31.4</onTimePerformance>
+  <trainMiles>300</trainMiles>
+  <frequencies>382000</frequencies>
+</capitolLimited>
+<californiaZephyr>
+  <operatingRevenue>27100000</operatingRevenue>
+  <operatingExpenses>65099999.99999999</operatingExpenses>
+  <adjustedEarnings>-38000000</adjustedEarnings>
+  <ridership>165900</ridership>
+  <seatMiles>204500000</seatMiles>
+  <passengerMiles>105200000</passengerMiles>
+  <averageLoadFactor>50</averageLoadFactor>
+  <onTimePerformance>41.4</onTimePerformance>
+  <trainMiles>900</trainMiles>
+  <frequencies>444000</frequencies>
+</californiaZephyr>
+<southwestChief>
+  <operatingRevenue>20000000</operatingRevenue>
+  <operatingExpenses>53500000</operatingExpenses>
+  <adjustedEarnings>-33500000</adjustedEarnings>
+  <ridership>108200</ridership>
+  <seatMiles>178200000</seatMiles>
+  <passengerMiles>93800000</passengerMiles>
+  <averageLoadFactor>52</averageLoadFactor>
+  <onTimePerformance>41.6</onTimePerformance>
+  <trainMiles>800</trainMiles>
+  <frequencies>362000</frequencies>
+</southwestChief>
+<cityOfNewOrleans>
+  <operatingRevenue>7800000</operatingRevenue>
+  <operatingExpenses>22600000</operatingExpenses>
+  <adjustedEarnings>-14800000</adjustedEarnings>
+  <ridership>87000</ridership>
+  <seatMiles>83300000</seatMiles>
+  <passengerMiles>34000000</passengerMiles>
+  <averageLoadFactor>37</averageLoadFactor>
+  <onTimePerformance>71.2</onTimePerformance>
+  <trainMiles>300</trainMiles>
+  <frequencies>362000</frequencies>
+</cityOfNewOrleans>
+<texasEagle>
+  <operatingRevenue>11700000</operatingRevenue>
+  <operatingExpenses>29600000</operatingExpenses>
+  <adjustedEarnings>-17900000</adjustedEarnings>
+  <ridership>129400</ridership>
+  <seatMiles>99800000</seatMiles>
+  <passengerMiles>62500000</passengerMiles>
+  <averageLoadFactor>59</averageLoadFactor>
+  <onTimePerformance>61.8</onTimePerformance>
+  <trainMiles>500</trainMiles>
+  <frequencies>386000</frequencies>
+</texasEagle>
+<sunsetLimited>
+  <operatingRevenue>5900000</operatingRevenue>
+  <operatingExpenses>29700000</operatingExpenses>
+  <adjustedEarnings>-23800000</adjustedEarnings>
+  <ridership>39200</ridership>
+  <seatMiles>90200000</seatMiles>
+  <passengerMiles>28700000</passengerMiles>
+  <averageLoadFactor>32</averageLoadFactor>
+  <onTimePerformance>31.8</onTimePerformance>
+  <trainMiles>400</trainMiles>
+  <frequencies>179000</frequencies>
+</sunsetLimited>
+<coastStarlight>
+  <operatingRevenue>21300000</operatingRevenue>
+  <operatingExpenses>48800000</operatingExpenses>
+  <adjustedEarnings>-27400000</adjustedEarnings>
+  <ridership>174700</ridership>
+  <seatMiles>150200000</seatMiles>
+  <passengerMiles>76700000</passengerMiles>
+  <averageLoadFactor>49</averageLoadFactor>
+  <onTimePerformance>57.6</onTimePerformance>
+  <trainMiles>500</trainMiles>
+  <frequencies>384000</frequencies>
+</coastStarlight>
+<lakeShoreLimited>
+  <operatingRevenue>14200000</operatingRevenue>
+  <operatingExpenses>36200000</operatingExpenses>
+  <adjustedEarnings>-22000000</adjustedEarnings>
+  <ridership>153600</ridership>
+  <seatMiles>118700000</seatMiles>
+  <passengerMiles>61100000</passengerMiles>
+  <averageLoadFactor>48</averageLoadFactor>
+  <onTimePerformance>60.5</onTimePerformance>
+  <trainMiles>400</trainMiles>
+  <frequencies>709000</frequencies>
+</lakeShoreLimited>
+<palmetto>
+  <operatingRevenue>13500000</operatingRevenue>
+  <operatingExpenses>23700000</operatingExpenses>
+  <adjustedEarnings>-10300000</adjustedEarnings>
+  <ridership>155500</ridership>
+  <seatMiles>92400000</seatMiles>
+  <passengerMiles>36000000</passengerMiles>
+  <averageLoadFactor>38</averageLoadFactor>
+  <onTimePerformance>75.1</onTimePerformance>
+  <trainMiles>300</trainMiles>
+  <frequencies>413000</frequencies>
+</palmetto>
+<crescent>
+  <operatingRevenue>15300000</operatingRevenue>
+  <operatingExpenses>36900000</operatingExpenses>
+  <adjustedEarnings>-21600000</adjustedEarnings>
+  <ridership>118800</ridership>
+  <seatMiles>114900000</seatMiles>
+  <passengerMiles>47800000</passengerMiles>
+  <averageLoadFactor>41</averageLoadFactor>
+  <onTimePerformance>56.3</onTimePerformance>
+  <trainMiles>500</trainMiles>
+  <frequencies>374000</frequencies>
+</crescent>
+<autoTrain>
+  <operatingRevenue>69000000</operatingRevenue>
+  <operatingExpenses>54200000</operatingExpenses>
+  <adjustedEarnings>14800000</adjustedEarnings>
+  <ridership>164600</ridership>
+  <seatMiles>214100000</seatMiles>
+  <passengerMiles>82800000</passengerMiles>
+  <averageLoadFactor>40</averageLoadFactor>
+  <onTimePerformance>32.2</onTimePerformance>
+  <trainMiles>400</trainMiles>
+  <frequencies>416000</frequencies>
+</autoTrain>
+<longDistanceAdjustments>
+  <operatingRevenue>0</operatingRevenue>
+  <operatingExpenses>13000000</operatingExpenses>
+  <adjustedEarnings>-12900000</adjustedEarnings>
+  <ridership>0</ridership>
+  <seatMiles>0</seatMiles>
+  <passengerMiles>0</passengerMiles>
+  <averageLoadFactor>0</averageLoadFactor>
+  <onTimePerformance>0</onTimePerformance>
+  <trainMiles>0</trainMiles>
+  <frequencies>0</frequencies>
+</longDistanceAdjustments>
+<longDistance>
+  <operatingRevenue>275700000</operatingRevenue>
+  <operatingExpenses>590100000</operatingExpenses>
+  <adjustedEarnings>-314400000</adjustedEarnings>
+  <ridership>1866600</ridership>
+  <seatMiles>1930100000</seatMiles>
+  <passengerMiles>917300000</passengerMiles>
+  <averageLoadFactor>46</averageLoadFactor>
+  <onTimePerformance>49.2</onTimePerformance>
+  <trainMiles>7300</trainMiles>
+  <frequencies>5908000</frequencies>
+</longDistance>
+<ancillary>
+  <operatingRevenue>207500000</operatingRevenue>
+  <operatingExpenses>201900000</operatingExpenses>
+  <adjustedEarnings>5600000</adjustedEarnings>
+  <ridership>0</ridership>
+  <seatMiles>3000000</seatMiles>
+  <passengerMiles/>
+  <trainMiles/>
+  <frequencies/>
+</ancillary>
+<infrastructure>
+  <operatingRevenue>146800000</operatingRevenue>
+  <operatingExpenses>225600000</operatingExpenses>
+  <adjustedEarnings>-78800000</adjustedEarnings>
+  <ridership>4700</ridership>
+  <seatMiles>366834100000</seatMiles>
+  <passengerMiles/>
+  <trainMiles/>
+  <frequencies/>
+</infrastructure>
+<amtrak>
+  <operatingRevenue>1502400000</operatingRevenue>
+  <operatingExpenses>2026800000</operatingExpenses>
+  <adjustedEarnings>-524400000</adjustedEarnings>
+  <ridership>11609800</ridership>
+  <seatMiles>5814400000</seatMiles>
+  <passengerMiles>2430500000</passengerMiles>
+  <averageLoadFactor>40</averageLoadFactor>
+  <onTimePerformance>76.4</onTimePerformance>
+  <trainMiles>18700</trainMiles>
+  <frequencies>52201800</frequencies>
+</amtrak>

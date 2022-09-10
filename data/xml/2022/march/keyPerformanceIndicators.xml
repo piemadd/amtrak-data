@@ -1,0 +1,99 @@
+<northeastCorridor>
+  <priorYear>1146000</priorYear>
+  <currentYearForecast>4054000</currentYearForecast>
+  <currentYearActual>3790000</currentYearActual>
+  <growthInRiders>2645000</growthInRiders>
+  <growthInPercent>231000</growthInPercent>
+  <actualVSForecastInRiders>-264000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-7</actualVSForecastInPercent>
+</northeastCorridor>
+<stateSupported>
+  <priorYear>1679000</priorYear>
+  <currentYearForecast>4893000</currentYearForecast>
+  <currentYearActual>4309000</currentYearActual>
+  <growthInRiders>2630000</growthInRiders>
+  <growthInPercent>157000</growthInPercent>
+  <actualVSForecastInRiders>-584000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-12</actualVSForecastInPercent>
+</stateSupported>
+<longDistance>
+  <priorYear>691000</priorYear>
+  <currentYearForecast>1602000</currentYearForecast>
+  <currentYearActual>1583000</currentYearActual>
+  <growthInRiders>892000</growthInRiders>
+  <growthInPercent>129000</growthInPercent>
+  <actualVSForecastInRiders>-18000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-1</actualVSForecastInPercent>
+</longDistance>
+<totalRidership>
+  <priorYear>3516000</priorYear>
+  <currentYearForecast>10549000</currentYearForecast>
+  <currentYearActual>9683000</currentYearActual>
+  <growthInRiders>6167000</growthInRiders>
+  <growthInPercent>175000</growthInPercent>
+  <actualVSForecastInRiders>-867000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-8</actualVSForecastInPercent>
+</totalRidership>
+<rasm>
+  <priorYear>13000</priorYear>
+  <currentYearForecast>16390</currentYearForecast>
+  <currentYearActual>19120</currentYearActual>
+  <growthInRiders>6000</growthInRiders>
+  <growthInPercent>47000</growthInPercent>
+  <actualVSForecastInRiders>2730</actualVSForecastInRiders>
+  <actualVSForecastInPercent>17</actualVSForecastInPercent>
+</rasm>
+<casm>
+  <priorYear>27560</priorYear>
+  <currentYearForecast>23170</currentYearForecast>
+  <currentYearActual>27120</currentYearActual>
+  <growthInRiders>0</growthInRiders>
+  <growthInPercent>-2000</growthInPercent>
+  <actualVSForecastInRiders>-3960</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-17</actualVSForecastInPercent>
+</casm>
+<costRecoveryRatio>
+  <priorYear>47200</priorYear>
+  <currentYearForecast>70800</currentYearForecast>
+  <currentYearActual>70500</currentYearActual>
+  <growthInRiders/>
+  <growthInPercent/>
+  <actualVSForecastInRiders>-300</actualVSForecastInRiders>
+  <actualVSForecastInPercent>23.3</actualVSForecastInPercent>
+</costRecoveryRatio>
+<customerSatisfactionIndex>
+  <priorYear>84300</priorYear>
+  <currentYearForecast>81300</currentYearForecast>
+  <currentYearActual>81600</currentYearActual>
+  <growthInRiders/>
+  <growthInPercent/>
+  <actualVSForecastInRiders>300</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-2.7</actualVSForecastInPercent>
+</customerSatisfactionIndex>
+<seatMiles>
+  <priorYear>3559800</priorYear>
+  <currentYearForecast>5853300</currentYearForecast>
+  <currentYearActual>5008200</currentYearActual>
+  <growthInRiders>1448000</growthInRiders>
+  <growthInPercent>41000</growthInPercent>
+  <actualVSForecastInRiders>-845000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-14</actualVSForecastInPercent>
+</seatMiles>
+<passengerMiles>
+  <priorYear>832700</priorYear>
+  <currentYearForecast>2143800</currentYearForecast>
+  <currentYearActual>2040900</currentYearActual>
+  <growthInRiders>1208000</growthInRiders>
+  <growthInPercent>145000</growthInPercent>
+  <actualVSForecastInRiders>-102900</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-5</actualVSForecastInPercent>
+</passengerMiles>
+<trainMiles>
+  <priorYear>10600</priorYear>
+  <currentYearForecast>18100</currentYearForecast>
+  <currentYearActual>16200</currentYearActual>
+  <growthInRiders>6000</growthInRiders>
+  <growthInPercent>52000</growthInPercent>
+  <actualVSForecastInRiders>-1900</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-11</actualVSForecastInPercent>
+</trainMiles>

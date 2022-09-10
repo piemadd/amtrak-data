@@ -1,0 +1,99 @@
+<northeastCorridor>
+  <priorYear>219000</priorYear>
+  <currentYearForecast>741000</currentYearForecast>
+  <currentYearActual>774000</currentYearActual>
+  <growthInRiders>555000</growthInRiders>
+  <growthInPercent>253000</growthInPercent>
+  <actualVSForecastInRiders>34000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>5</actualVSForecastInPercent>
+</northeastCorridor>
+<stateSupported>
+  <priorYear>326000</priorYear>
+  <currentYearForecast>782000</currentYearForecast>
+  <currentYearActual>794000</currentYearActual>
+  <growthInRiders>468000</growthInRiders>
+  <growthInPercent>144000</growthInPercent>
+  <actualVSForecastInRiders>12000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>2</actualVSForecastInPercent>
+</stateSupported>
+<longDistance>
+  <priorYear>140000</priorYear>
+  <currentYearForecast>279000</currentYearForecast>
+  <currentYearActual>277000</currentYearActual>
+  <growthInRiders>137000</growthInRiders>
+  <growthInPercent>97000</growthInPercent>
+  <actualVSForecastInRiders>-2000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-1</actualVSForecastInPercent>
+</longDistance>
+<totalRidership>
+  <priorYear>685000</priorYear>
+  <currentYearForecast>1802000</currentYearForecast>
+  <currentYearActual>1846000</currentYearActual>
+  <growthInRiders>1160000</growthInRiders>
+  <growthInPercent>169000</growthInPercent>
+  <actualVSForecastInRiders>44000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>2</actualVSForecastInPercent>
+</totalRidership>
+<rasm>
+  <priorYear>12890</priorYear>
+  <currentYearForecast>17380</currentYearForecast>
+  <currentYearActual>19920</currentYearActual>
+  <growthInRiders>7000</growthInRiders>
+  <growthInPercent>55000</growthInPercent>
+  <actualVSForecastInRiders>2540</actualVSForecastInRiders>
+  <actualVSForecastInPercent>15</actualVSForecastInPercent>
+</rasm>
+<casm>
+  <priorYear>26230</priorYear>
+  <currentYearForecast>22380</currentYearForecast>
+  <currentYearActual>23800</currentYearActual>
+  <growthInRiders>-2000</growthInRiders>
+  <growthInPercent>-9000</growthInPercent>
+  <actualVSForecastInRiders>-1420</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-6</actualVSForecastInPercent>
+</casm>
+<costRecoveryRatio>
+  <priorYear>49100</priorYear>
+  <currentYearForecast>77700</currentYearForecast>
+  <currentYearActual>83700</currentYearActual>
+  <growthInRiders/>
+  <growthInPercent/>
+  <actualVSForecastInRiders>6100</actualVSForecastInRiders>
+  <actualVSForecastInPercent>34.6</actualVSForecastInPercent>
+</costRecoveryRatio>
+<customerSatisfactionIndex>
+  <priorYear>84200</priorYear>
+  <currentYearForecast>81100</currentYearForecast>
+  <currentYearActual>80900</currentYearActual>
+  <growthInRiders/>
+  <growthInPercent/>
+  <actualVSForecastInRiders>-200</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-3.3</actualVSForecastInPercent>
+</customerSatisfactionIndex>
+<seatMiles>
+  <priorYear>639300</priorYear>
+  <currentYearForecast>962400</currentYearForecast>
+  <currentYearActual>881800</currentYearActual>
+  <growthInRiders>242000</growthInRiders>
+  <growthInPercent>38000</growthInPercent>
+  <actualVSForecastInRiders>-80600</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-8</actualVSForecastInPercent>
+</seatMiles>
+<passengerMiles>
+  <priorYear>160900</priorYear>
+  <currentYearForecast>375800</currentYearForecast>
+  <currentYearActual>389800</currentYearActual>
+  <growthInRiders>229000</growthInRiders>
+  <growthInPercent>142000</growthInPercent>
+  <actualVSForecastInRiders>14100</actualVSForecastInRiders>
+  <actualVSForecastInPercent>4</actualVSForecastInPercent>
+</passengerMiles>
+<trainMiles>
+  <priorYear>2000</priorYear>
+  <currentYearForecast>3000</currentYearForecast>
+  <currentYearActual>3000</currentYearActual>
+  <growthInRiders>1000</growthInRiders>
+  <growthInPercent>49000</growthInPercent>
+  <actualVSForecastInRiders>-100</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-3</actualVSForecastInPercent>
+</trainMiles>

@@ -1,0 +1,99 @@
+<northeastCorridor>
+  <priorYear>576000</priorYear>
+  <currentYearForecast>2167000</currentYearForecast>
+  <currentYearActual>2185000</currentYearActual>
+  <growthInRiders>1609000</growthInRiders>
+  <growthInPercent>279000</growthInPercent>
+  <actualVSForecastInRiders>18000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>1</actualVSForecastInPercent>
+</northeastCorridor>
+<stateSupported>
+  <priorYear>853000</priorYear>
+  <currentYearForecast>2453000</currentYearForecast>
+  <currentYearActual>2433000</currentYearActual>
+  <growthInRiders>1581000</growthInRiders>
+  <growthInPercent>185000</growthInPercent>
+  <actualVSForecastInRiders>-19000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-1</actualVSForecastInPercent>
+</stateSupported>
+<longDistance>
+  <priorYear>361000</priorYear>
+  <currentYearForecast>859000</currentYearForecast>
+  <currentYearActual>912000</currentYearActual>
+  <growthInRiders>551000</growthInRiders>
+  <growthInPercent>153000</growthInPercent>
+  <actualVSForecastInRiders>53000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>6</actualVSForecastInPercent>
+</longDistance>
+<totalRidership>
+  <priorYear>1790000</priorYear>
+  <currentYearForecast>5478000</currentYearForecast>
+  <currentYearActual>5530000</currentYearActual>
+  <growthInRiders>3740000</growthInRiders>
+  <growthInPercent>209000</growthInPercent>
+  <actualVSForecastInRiders>52000</actualVSForecastInRiders>
+  <actualVSForecastInPercent>1</actualVSForecastInPercent>
+</totalRidership>
+<rasm>
+  <priorYear>12590</priorYear>
+  <currentYearForecast>17290</currentYearForecast>
+  <currentYearActual>19480</currentYearActual>
+  <growthInRiders>7000</growthInRiders>
+  <growthInPercent>55000</growthInPercent>
+  <actualVSForecastInRiders>2180</actualVSForecastInRiders>
+  <actualVSForecastInPercent>13</actualVSForecastInPercent>
+</rasm>
+<casm>
+  <priorYear>25660</priorYear>
+  <currentYearForecast>22410</currentYearForecast>
+  <currentYearActual>24210</currentYearActual>
+  <growthInRiders>-1000</growthInRiders>
+  <growthInPercent>-6000</growthInPercent>
+  <actualVSForecastInRiders>-1810</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-8</actualVSForecastInPercent>
+</casm>
+<costRecoveryRatio>
+  <priorYear>49000</priorYear>
+  <currentYearForecast>77200</currentYearForecast>
+  <currentYearActual>80400</currentYearActual>
+  <growthInRiders/>
+  <growthInPercent/>
+  <actualVSForecastInRiders>3300</actualVSForecastInRiders>
+  <actualVSForecastInPercent>31.4</actualVSForecastInPercent>
+</costRecoveryRatio>
+<customerSatisfactionIndex>
+  <priorYear>84100</priorYear>
+  <currentYearForecast>81100</currentYearForecast>
+  <currentYearActual>81500</currentYearActual>
+  <growthInRiders/>
+  <growthInPercent/>
+  <actualVSForecastInRiders>500</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-2.5</actualVSForecastInPercent>
+</customerSatisfactionIndex>
+<seatMiles>
+  <priorYear>1839400</priorYear>
+  <currentYearForecast>2903000</currentYearForecast>
+  <currentYearActual>2700200</currentYearActual>
+  <growthInRiders>861000</growthInRiders>
+  <growthInPercent>47000</growthInPercent>
+  <actualVSForecastInRiders>-202700</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-7</actualVSForecastInPercent>
+</seatMiles>
+<passengerMiles>
+  <priorYear>428600</priorYear>
+  <currentYearForecast>1141800</currentYearForecast>
+  <currentYearActual>1193900</currentYearActual>
+  <growthInRiders>765000</growthInRiders>
+  <growthInPercent>179000</growthInPercent>
+  <actualVSForecastInRiders>52100</actualVSForecastInRiders>
+  <actualVSForecastInPercent>5</actualVSForecastInPercent>
+</passengerMiles>
+<trainMiles>
+  <priorYear>5500</priorYear>
+  <currentYearForecast>9000</currentYearForecast>
+  <currentYearActual>8800</currentYearActual>
+  <growthInRiders>3000</growthInRiders>
+  <growthInPercent>59000</growthInPercent>
+  <actualVSForecastInRiders>-200</actualVSForecastInRiders>
+  <actualVSForecastInPercent>-2</actualVSForecastInPercent>
+</trainMiles>

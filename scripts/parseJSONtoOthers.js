@@ -1,14 +1,25 @@
 const fs = require('fs');
-const {generate} = require('csv-generate/sync');
+const { stringify } = require('csv-stringify/sync');
 const convert = require('xml-js');
 
 //who needs comments?
 fs.readdirSync('../data/json').forEach((year) => {
   fs.readdirSync(`../data/json/${year}`).forEach((month) => {
-    fs.readdirSync(`../data/json/${year}/${month}`).map((file) => {
-      const data = fs.readFileSync(`../data/json/${year}/${month}/${file}`);
-      const csv = generate(data);
+    console.log(`Parsing ${year}/${month}`);
+    fs.readdirSync(`../data/json/${year}/${month}`).map((file, i) => {
+      const data = JSON.parse(fs.readFileSync(`../data/json/${year}/${month}/${file}`));
+      const dataColumns = Object.keys(data[Object.keys(data)[0]]);
+      const dataArr = Object.keys(data).map((key) => {
+        return [key, ...Object.values(data[key])];
+      })
+      console.log('opened')
+      const csv = stringify(dataArr, { columns: dataColumns, header: true });
+      console.log('csv')
       const xml = convert.json2xml(data, {compact: true, ignoreComment: true, spaces: 2});
+      console.log('xml')
+
+      fs.mkdirSync(`../data/csv/${year}/${month}`, { recursive: true });
+      fs.mkdirSync(`../data/xml/${year}/${month}`, { recursive: true });
 
       fs.writeFileSync(`../data/csv/${year}/${month}/${file.replace('.json', '.csv')}`, csv);
       fs.writeFileSync(`../data/xml/${year}/${month}/${file.replace('.json', '.xml')}`, xml);

@@ -1,0 +1,60 @@
+<operatingSources>
+  <necAccounts>235715000</necAccounts>
+  <nationalNetworkAccount>214968000</nationalNetworkAccount>
+  <total>450683000</total>
+</operatingSources>
+<capitalSources>
+  <necAccounts>34171000</necAccounts>
+  <nationalNetworkAccount>15447000</nationalNetworkAccount>
+  <total>49618000</total>
+</capitalSources>
+<federalGrantsToAmtrak>
+  <necAccounts>9900000</necAccounts>
+  <nationalNetworkAccount>121710000</nationalNetworkAccount>
+  <total>131610000</total>
+</federalGrantsToAmtrak>
+<totalOperatingAndCapitalSources>
+  <necAccounts>279787000</necAccounts>
+  <nationalNetworkAccount>352125000</nationalNetworkAccount>
+  <total>631911000</total>
+</totalOperatingAndCapitalSources>
+<operatingUses>
+  <necAccounts>221369000</necAccounts>
+  <nationalNetworkAccount>318372000</nationalNetworkAccount>
+  <total>539741000</total>
+</operatingUses>
+<operatingSurplusOrDeficit>
+  <necAccounts>0</necAccounts>
+  <nationalNetworkAccount>14346000</nationalNetworkAccount>
+  <total>103404000</total>
+</operatingSurplusOrDeficit>
+<debtServicePayments>
+  <necAccounts>0</necAccounts>
+  <nationalNetworkAccount>0</nationalNetworkAccount>
+  <total>0</total>
+</debtServicePayments>
+<availableForCapitalUses>
+  <necAccounts>0</necAccounts>
+  <nationalNetworkAccount>58418000</nationalNetworkAccount>
+  <total>33753000</total>
+</availableForCapitalUses>
+<capitalExpenditures>
+  <necAccounts>164321000</necAccounts>
+  <nationalNetworkAccount>130143000</nationalNetworkAccount>
+  <total>294464000</total>
+</capitalExpenditures>
+<legacyDebtAndRrifRepayments>
+  <necAccounts>14349000</necAccounts>
+  <nationalNetworkAccount>305000</nationalNetworkAccount>
+  <total>14653000</total>
+</legacyDebtAndRrifRepayments>
+<remainingCarryoverBalance>
+  <necAccounts>-120252000</necAccounts>
+  <nationalNetworkAccount>-96695000</nationalNetworkAccount>
+  <total>-216947000</total>
+</remainingCarryoverBalance>
+<transfers>
+  <necAccounts>0</necAccounts>
+  <nationalNetworkAccount>0</nationalNetworkAccount>
+  <total>0</total>
+</transfers>

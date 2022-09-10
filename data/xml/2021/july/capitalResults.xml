@@ -1,0 +1,135 @@
+<engineering>
+  <priorYear>585100000</priorYear>
+  <currentYearForecast>511600000</currentYearForecast>
+  <currentYearActual>500100000</currentYearActual>
+  <growthInDollars>-85000000</growthInDollars>
+  <growthInPercent>-15</growthInPercent>
+  <actualVSForecastInDollars>-11500000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>-2</actualVSForecastInPercent>
+</engineering>
+<mechanical>
+  <priorYear>274900000</priorYear>
+  <currentYearForecast>301800000</currentYearForecast>
+  <currentYearActual>292300000</currentYearActual>
+  <growthInDollars>17500000</growthInDollars>
+  <growthInPercent>6</growthInPercent>
+  <actualVSForecastInDollars>-9500000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>-3</actualVSForecastInPercent>
+</mechanical>
+<operations>
+  <priorYear>48300000</priorYear>
+  <currentYearForecast>12300000</currentYearForecast>
+  <currentYearActual>9500000</currentYearActual>
+  <growthInDollars>-38800000</growthInDollars>
+  <growthInPercent>-80</growthInPercent>
+  <actualVSForecastInDollars>-2800000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>-23</actualVSForecastInPercent>
+</operations>
+<totalOperations>
+  <priorYear>908200000</priorYear>
+  <currentYearForecast>825700000</currentYearForecast>
+  <currentYearActual>801900000</currentYearActual>
+  <growthInDollars>-106300000</growthInDollars>
+  <growthInPercent>-12</growthInPercent>
+  <actualVSForecastInDollars>-23800000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>-3</actualVSForecastInPercent>
+</totalOperations>
+<it>
+  <priorYear>87400000</priorYear>
+  <currentYearForecast>81600000</currentYearForecast>
+  <currentYearActual>80200000</currentYearActual>
+  <growthInDollars>-7200000</growthInDollars>
+  <growthInPercent>-8</growthInPercent>
+  <actualVSForecastInDollars>-1400000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>-2</actualVSForecastInPercent>
+</it>
+<commericalMarketing>
+  <priorYear>1400000</priorYear>
+  <currentYearForecast>1900000</currentYearForecast>
+  <currentYearActual>500000</currentYearActual>
+  <growthInDollars>-900000</growthInDollars>
+  <growthInPercent>-67</growthInPercent>
+  <actualVSForecastInDollars>-1400000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>-74</actualVSForecastInPercent>
+</commericalMarketing>
+<ada>
+  <priorYear>75100000</priorYear>
+  <currentYearForecast>78300000</currentYearForecast>
+  <currentYearActual>77600000</currentYearActual>
+  <growthInDollars>2500000</growthInDollars>
+  <growthInPercent>3</growthInPercent>
+  <actualVSForecastInDollars>-700000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>-1</actualVSForecastInPercent>
+</ada>
+<realEstateStationsFacilities>
+  <priorYear>52400000</priorYear>
+  <currentYearForecast>86100000</currentYearForecast>
+  <currentYearActual>83600000</currentYearActual>
+  <growthInDollars>31200000</growthInDollars>
+  <growthInPercent>60</growthInPercent>
+  <actualVSForecastInDollars>-2500000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>-3</actualVSForecastInPercent>
+</realEstateStationsFacilities>
+<safety>
+  <priorYear>15100000</priorYear>
+  <currentYearForecast>20900000</currentYearForecast>
+  <currentYearActual>15000000</currentYearActual>
+  <growthInDollars>-100000</growthInDollars>
+  <growthInPercent>-1</growthInPercent>
+  <actualVSForecastInDollars>-6000000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>-28</actualVSForecastInPercent>
+</safety>
+<procurement>
+  <priorYear>4200000</priorYear>
+  <currentYearForecast>3400000</currentYearForecast>
+  <currentYearActual>3000000</currentYearActual>
+  <growthInDollars>-1200000</growthInDollars>
+  <growthInPercent>-28</growthInPercent>
+  <actualVSForecastInDollars>-400000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>-12</actualVSForecastInPercent>
+</procurement>
+<acela21>
+  <priorYear>21000000</priorYear>
+  <currentYearForecast>-44000000</currentYearForecast>
+  <currentYearActual>337800000</currentYearActual>
+  <growthInDollars>188800000</growthInDollars>
+  <growthInPercent>-149.1</growthInPercent>
+  <actualVSForecastInDollars>188800000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>7.4</actualVSForecastInPercent>
+</acela21>
+<planningAssetDevelopment>
+  <priorYear>69900000</priorYear>
+  <currentYearForecast>110100000</currentYearForecast>
+  <currentYearActual>463700000</currentYearActual>
+  <growthInDollars>393800000</growthInDollars>
+  <growthInPercent>563</growthInPercent>
+  <actualVSForecastInDollars>353500000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>321</actualVSForecastInPercent>
+</planningAssetDevelopment>
+<intercityTrainsets>
+  <priorYear>0</priorYear>
+  <currentYearForecast>139200000</currentYearForecast>
+  <currentYearActual>137200000</currentYearActual>
+  <growthInDollars>137100000</growthInDollars>
+  <growthInPercent>0</growthInPercent>
+  <actualVSForecastInDollars>-2100000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>-1</actualVSForecastInPercent>
+</intercityTrainsets>
+<otherOvhdAdjustment>
+  <priorYear>-500000</priorYear>
+  <currentYearForecast>3800000</currentYearForecast>
+  <currentYearActual>3900000</currentYearActual>
+  <growthInDollars>4400000</growthInDollars>
+  <growthInPercent>896</growthInPercent>
+  <actualVSForecastInDollars>0</actualVSForecastInDollars>
+  <actualVSForecastInPercent>1</actualVSForecastInPercent>
+</otherOvhdAdjustment>
+<totalCapitalSpend>
+  <priorYear>1551100000</priorYear>
+  <currentYearForecast>1532400000</currentYearForecast>
+  <currentYearActual>1855300000</currentYearActual>
+  <growthInDollars>304200000</growthInDollars>
+  <growthInPercent>20</growthInPercent>
+  <actualVSForecastInDollars>322900000</actualVSForecastInDollars>
+  <actualVSForecastInPercent>21</actualVSForecastInPercent>
+</totalCapitalSpend>

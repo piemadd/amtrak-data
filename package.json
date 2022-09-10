@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/piemadd/amtrak-data#readme",
   "dependencies": {
-    "csv-generate": "^4.2.0",
     "csv-parse": "^5.3.0",
+    "csv-stringify": "^6.2.0",
     "xml-js": "^1.6.11"
   }
 }
