@@ -177,12 +177,12 @@ const readFolder = (folderPath, save = true) => {
   if (save) {
     finalizedData.forEach((file, i) => {
       const year = parseNum(folderPath.replaceAll('\\', '/').split('/')[2]);
-      const month = parseNum(folderPath.replaceAll('\\', '/').split('/')[3]);
-      const folderPath = `../data/json/${year}/${month}`;
-      const filePath = `${folderPath}/${fileNames[i]}.json`;
+      const month = folderPath.replaceAll('\\', '/').split('/')[3];
+      const fileFolderPath = `../data/json/${year}/${month}`;
+      const filePath = `${fileFolderPath}/${fileNames[i]}.json`;
       console.log('saving to ', filePath)
       
-      fs.mkdirSync(folderPath, { recursive: true });
+      fs.mkdirSync(fileFolderPath, { recursive: true });
       fs.writeFileSync(filePath, JSON.stringify(file));
     })
   }
