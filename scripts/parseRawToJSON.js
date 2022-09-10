@@ -75,7 +75,6 @@ const processFile = (fileName) => {
   });
 
   const mooshed = moosh(data);
-
   const fileType = fileName.split("tabula-report-")[1].split(".")[0];
 
   let final = {};
@@ -84,11 +83,6 @@ const processFile = (fileName) => {
     case "0":
     case "1":
       console.log("processing file type 0 or 1");
-      //removing unnecessary rows
-      for (let i = 0; i < 3; i++) {
-        data.shift();
-        mooshed.shift();
-      }
 
       mooshed.forEach((row, i) => {
         if (row.length == 0) return;
@@ -107,114 +101,60 @@ const processFile = (fileName) => {
       });
       break;
     case "2":
-      console.log(2);
-      //removing unnecessary rows
-      data.shift();
-      data.shift();
-      data.shift();
-      data.shift();
+      console.log("processing file type 2");
 
-      data.forEach((row) => {
-        if (row[0].startsWith("Other ")) {
-          return;
-        }
+      mooshed.forEach((row, i) => {
+        if (row.length == 0) return;
 
         const parsed = {
-          priorYear: parseNum(row[1]) * 1000,
-          currentYearForecast: parseNum(row[2]) * 1000,
-          currentYearActual: parseNum(row[3]) * 1000,
-          growthInNumbers: parseNum(row[5]) * 1000,
-          growthInPercent: parseNum(row[6]),
-          actualVSForecastInNumbers: parseNum(row[4].split(" ")[0]),
-          actualVSForecastInPercent:
-            row[4].split(" ")[1] != "pp"
-              ? parseNum(row[4].split(" ")[1])
-              : parseNum(
-                  ((parseNum(row[3]) / parseNum(row[1])) * 100).toFixed(2)
-                ),
+          priorYear: row[0] * 1000,
+          currentYearForecast: row[1] * 1000,
+          currentYearActual: row[2] * 1000,
+          growthInRiders: row[5] * 1000,
+          growthInPercent: row[6] * 1000,
+          actualVSForecastInRiders: row[3] * 1000,
+          actualVSForecastInPercent: row[4],
         };
 
-        final[camelCase(row[0])] = parsed;
+        final[camelCase(data[i][0])] = parsed;
       });
       break;
     case "3":
-      console.log(3);
-      //removing unnecessary rows
-      data.shift();
-      data.shift();
+      console.log("processing file type 3");
 
-      data.forEach((row) => {
-        if (row[1] === "" || row[1] === "-") {
-          return;
-        }
+      mooshed.forEach((row, i) => {
+        if (row.length == 0) return;
 
         const parsed = {
-          northEast: parseNum(row[1]),
-          national: parseNum(row[2]),
-          total: parseNum(row[3]),
+          necAccounts: row[0] * 1000,
+          nationalNetworkAccount: row[1] * 1000,
+          total: row[2] * 1000,
         };
 
-        final[camelCase(row[0])] = parsed;
+        final[camelCase(data[i][0])] = parsed;  
       });
       break;
     case "4":
-      console.log(4);
-      //removing unnecessary rows
-      data.shift();
-      data.shift();
-      data.shift();
+      console.log("processing file type 4");
 
-      data.forEach((row, i) => {
-        if (row[1] === "" || row[1] === "-") {
-          return;
-        }
+      mooshed.forEach((row, i) => {
+        if (row.length == 0) return;
 
-        let parsed = {
-          operatingRevenue: parseNum(row[1]) * 1000000,
-          operatingExpenses: parseNum(row[3]) * 1000000,
-          operatingEarnings: parseNum(row[5]) * 1000000,
-          ridership: row[6] !== "" ? parseNum(row[6]) * 1000 : 0,
-          seatMiles:
-            row[7] !== "" ? parseNum(row[7].split(" ")[0]) * 1000000 : 0,
-          passengerMiles:
-            row[7] !== "" ? parseNum(row[7].split(" ")[1]) * 1000000 : 0,
-          averageLoadFactor: row[8] !== "" ? parseNum(row[8]) : 0,
-          onTimePerformance: row[9] !== "" ? parseNum(row[9]) : 0,
-          trainMiles: parseNum(row[10]) * 1000000,
-          frequencies: parseNum(row[11]),
+        const parsed = {
+          operatingRevenue: row[0] * 1000000,
+          operatingExpenses: row[1] * 1000000,
+          adjustedEarnings: row[2] * 1000000,
+          ridership: row[3] * 1000,
+          seatMiles: row[4] * 1000000,
+          passengerMiles: row[5] * 1000000,
+          averageLoadFactor: row[6],
+          onTimePerformance: row[7],
+          trainMiles: row[8] * 1000,
+          frequencies: row[9] * 1000,
         };
 
-        if (i > 0 && data[i - 1] && data[i - 1][8] === "N/A") {
-          parsed.operatingRevenue +=
-            data[i - 1][1] === "N/A" ? 0 : parseNum(data[i - 1][1]) * 1000000;
-          parsed.operatingExpenses +=
-            data[i - 1][3] === "N/A" ? 0 : parseNum(data[i - 1][3]) * 1000000;
-          parsed.operatingEarnings +=
-            data[i - 1][5] === "N/A" ? 0 : parseNum(data[i - 1][5]) * 1000000;
-          parsed.ridership +=
-            data[i - 1][6] === "N/A" ? 0 : parseNum(data[i - 1][6]);
-          parsed.seatMiles +=
-            data[i - 1][7].split(" ")[0] === "N/A"
-              ? 0
-              : parseNum(data[i - 1][7].split(" ")[0]) * 1000000;
-          parsed.passengerMiles +=
-            data[i - 1][7].split(" ")[1] === "N/A"
-              ? 0
-              : parseNum(data[i - 1][7].split(" ")[1]) * 1000000;
-          parsed.averageLoadFactor +=
-            data[i - 1][8] === "N/A" ? 0 : parseNum(data[i - 1][8]);
-          parsed.onTimePerformance +=
-            data[i - 1][9] === "N/A" ? 0 : parseNum(data[i - 1][9]);
-          parsed.trainMiles +=
-            data[i - 1][10] === "N/A" ? 0 : parseNum(data[i - 1][10]) * 1000000;
-          parsed.frequencies +=
-            data[i - 1][11] === "N/A" ? 0 : parseNum(data[i - 1][11]);
-        }
-
-        final[camelCase(row[0])] = parsed;
+        final[camelCase(data[i][0])] = parsed;
       });
-
-      break;
     default:
       console.log("default");
       break;
@@ -224,13 +164,29 @@ const processFile = (fileName) => {
 };
 
 //takes path of folder as input and returns array of json objects
-const readFolder = (folderPath) => {
-  return fs.readdirSync(folderPath).map((file) => {
+const readFolder = (folderPath, save = true) => {
+  const fileNames = ['operatingResults', 'capitalResults', 'keyPerformanceIndicators', 'sourcesAndUsesAccount', 'routeLevelResults'];
+
+  const finalizedData = fs.readdirSync(folderPath).map((file) => {
     const filePath = path.join(folderPath, file);
     console.log("processing file ", filePath);
     const data = processFile(filePath);
     return data;
   });
+
+  if (save) {
+    finalizedData.forEach((file, i) => {
+      const year = parseNum(folderPath.replaceAll('\\', '/').split('/')[2]);
+      const month = parseNum(folderPath.replaceAll('\\', '/').split('/')[3]);
+      const folderPath = `../data/json/${year}/${month}`;
+      const filePath = `${folderPath}/${fileNames[i]}.json`;
+      console.log('saving to ', filePath)
+      
+      fs.mkdirSync(folderPath, { recursive: true });
+      fs.writeFileSync(filePath, JSON.stringify(file));
+    })
+  }
+
 };
 
 const readMonth = (month) => {
@@ -249,15 +205,30 @@ const readYear = (year) => {
   return months;
 };
 
+const readAll = (() => {
+  console.log("Parsing all");
+  const folderPath = `../reports`;
+  const years = fs.readdirSync(folderPath).map((year) => {
+    console.log(`Parsing ../reports/${year}`);
+    return readYear(year);
+  });
+
+  return years;
+});
+
+readAll()
+
 /*
 console.log(
   readMonth("../reports/2021/august")
 );
 */
 
+/*
 console.log(
-  processFile("../reports/2021/august/unprocessed/tabula-report-1.csv")
+  processFile("../reports/2021/august/unprocessed/tabula-report-4.csv")
 );
+*/
 
 /*
 const rawData = fs.readFileSync(
