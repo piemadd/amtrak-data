@@ -144,6 +144,10 @@ const processFile = (fileName) => {
         if (row.length == 0) return;
         if (data[i][0].length == 0) return;
 
+        console.log(fileName, row, data[i]);
+
+        const hasOTP = (row.length == 10); 
+
         const parsed = {
           operatingRevenue: row[0] * 1000000,
           operatingExpenses: row[1] * 1000000,
@@ -151,8 +155,10 @@ const processFile = (fileName) => {
           ridership: row[3] * 1000,
           seatMiles: row[4] * 1000000,
           passengerMiles: row[5] * 1000000,
-          trainMiles: row[row.length - 2] * 1000,
-          frequencies: row[row.length - 1] * 1000,
+          averageLoadFactor: hasOTP ? row[6] : null,
+          onTimePerformance: hasOTP ? row[7] : null,
+          trainMiles: hasOTP ? row[8] * 1000000 : row[6] * 1000000,
+          frequencies: hasOTP ? row[9] : row[7],
         };
 
         final[camelCase(data[i][0])] = parsed;
